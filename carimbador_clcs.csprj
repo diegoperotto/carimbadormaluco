@@ -1,0 +1,838 @@
+<codestructure version="5.14">
+<phptree>
+<treenode node="../fpdf.php;PHP:PHP Include;C:\xampp2\htdocs\carimbador\fpdf\tutorial\tuto7.php;f9;2;20;2;;C:\xampp2\htdocs\carimbador\fpdf\tutorial\tuto6.php;f9;1;20;1;;C:\xampp2\htdocs\carimbador\fpdf\tutorial\tuto5.php;f9;1;20;1;;C:\xampp2\htdocs\carimbador\fpdf\tutorial\tuto4.php;f9;1;20;1;;C:\xampp2\htdocs\carimbador\fpdf\tutorial\tuto3.php;f9;1;20;1;;C:\xampp2\htdocs\carimbador\fpdf\tutorial\tuto2.php;f9;1;20;1;;C:\xampp2\htdocs\carimbador\fpdf\tutorial\tuto1.php;f9;1;20;1;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="../makefont/makefont.php;PHP:PHP Include;C:\xampp2\htdocs\carimbador\fpdf\tutorial\makefont.php;f9;2;33;2;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="FilterInterface;PHP:Interface Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Filter\FilterInterface.php;f0;17;1;26;;;;vpos;;v;;r&#10;Definition&#10;    interface FilterInterface&#10;&#10;Description&#10;     Interface for filters;;d0,18;;b0,0;;m">
+<treenode node="decode;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Filter\FilterInterface.php;f11;25;33;25;;;;vpos;;vstring;;r&#10;Description&#10;     Decode a string.&#10;&#10;Parameters:&#10;    string $data - The input string;;d-1,-1;;b1,0;;mstring $data;;p">
+</treenode>
+</treenode>
+<treenode node="fpdf/fpdf.php;PHP:PHP Include;C:\xampp2\htdocs\carimbador\inde.php;f14;2;27;2;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="FPDF_FONTPATH;PHP:PHP Word;C:\xampp2\htdocs\carimbador\fpdf\tutorial\tuto7.php;f8;1;21;1;;;;vpos;;v;;r&apos;.&apos;;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="FPDF_VERSION;PHP:PHP Word;C:\xampp2\htdocs\carimbador\fpdf\fpdf.php;f8;9;20;9;;;;vpos;;v;;r&apos;1.8&apos;;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="FPDI/fpdf.php;PHP:PHP Include;C:\xampp2\htdocs\carimbador\index.php;f14;7;27;7;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="FPDI/src/autoload.php;PHP:PHP Include;C:\xampp2\htdocs\carimbador\inde.php;f14;3;35;3;;C:\xampp2\htdocs\carimbador\index.php;f14;12;35;12;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="FPDI/src/FpdfTpl.php;PHP:PHP Include;C:\xampp2\htdocs\carimbador\index.php;f14;8;34;8;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="FPDI/src/Fpdi.php;PHP:PHP Include;C:\xampp2\htdocs\carimbador\index.php;f14;10;31;10;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="FPDI/src/FpdiTrait.php;PHP:PHP Include;C:\xampp2\htdocs\carimbador\index.php;f14;9;36;9;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="ReaderInterface;PHP:Interface Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\CrossReference\ReaderInterface.php;f0;19;1;35;;;;vpos;;v;;r&#10;Definition&#10;    interface ReaderInterface&#10;&#10;Description&#10;     ReaderInterface for cross-reference readers.;;d0,20;;b0,0;;m">
+<treenode node="getOffsetFor;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\CrossReference\ReaderInterface.php;f11;27;47;27;;;;vpos;;vint;;r&#10;Description&#10;     Get an offset by an object number.&#10;&#10;Parameters:&#10;    int $objectNumber&#10;&#10;Return:&#10;   |bool False if the offset was not found;;d-1,-1;;b1,0;;mint $objectNumber;;p">
+</treenode>
+<treenode node="getTrailer;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\CrossReference\ReaderInterface.php;f11;34;32;34;;;;vpos;;vPdfDictionary;;r&#10;Description&#10;     Get the trailer related to this cross reference.;;d-1,-1;;b1,0;;m">
+</treenode>
+</treenode>
+<treenode node="ttfparser.php;PHP:PHP Include;C:\xampp2\htdocs\carimbador\fpdf\makefont\makefont.php;f9;9;22;9;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="vendor/autoload.php;PHP:PHP Include;C:\Users\diego.silva.PMPA\Desktop\baixarcoelha.php;f14;3;33;3;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="AbstractReader;PHP:Class Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\CrossReference\AbstractReader.php;f9;21;1;85;;;;vpos;;v;;r&#10;Definition&#10;    class AbstractReader&#10;&#10;Description&#10;     Abstract class for cross-reference reader classes.;;d0,22;;b0,0;;m">
+<treenode node="__construct;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\CrossReference\AbstractReader.php;f11;38;5;42;;;;vpos;;v;;r&#10;Definition&#10;    __construct(PdfParser $parser)&#10;&#10;Description&#10;     AbstractReader constructor.&#10;&#10;Parameters:&#10;    PdfParser $parser;;d4,39;;b1,0;;mPdfParser $parser;;p">
+</treenode>
+<treenode node="getTrailer;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\CrossReference\AbstractReader.php;f11;49;5;52;;;;vpos;;vPdfDictionary;;r&#10;Definition&#10;    getTrailer()&#10;&#10;Description&#10;     Get the trailer dictionary.;;d4,50;;b1,0;;m">
+</treenode>
+<treenode node="readTrailer;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\CrossReference\AbstractReader.php;f14;59;5;84;;;;vpos;;v;;r&#10;Definition&#10;    readTrailer()&#10;&#10;Description&#10;     Read the trailer dictionary.;;d4,60;;b2,0;;m">
+</treenode>
+</treenode>
+<treenode node="Ascii85;PHP:Class Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Filter\Ascii85.php;f0;17;1;104;;;;vpos;;vFilterInterface;;c;;r&#10;Definition&#10;    class Ascii85 implements FilterInterface&#10;&#10;Description&#10;     Class for handling ASCII base-85 encoded data;;d0,18;;b0,0;;m">
+<treenode node="decode;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Filter\Ascii85.php;f11;26;5;103;;;;vpos;;vstring;;r&#10;Definition&#10;    decode($data)&#10;&#10;Description&#10;     Decode ASCII85 encoded string.&#10;&#10;Parameters:&#10;    string $data - The input string;;d4,27;;b1,0;;mstring $data;;p">
+</treenode>
+</treenode>
+<treenode node="Ascii85Exception;PHP:Class Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Filter\Ascii85Exception.php;f0;17;1;28;;;;vpos;;vFilterException;;c;;r&#10;Definition&#10;    class Ascii85Exception extends FilterException&#10;&#10;Description&#10;     Exception for Ascii85 filter class;;d0,18;;b0,0;;m">
+<treenode node="ILLEGAL_CHAR_FOUND;PHP:PHP Word;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Filter\Ascii85Exception.php;f9;22;28;22;;;;vposinteger;;v;;r0x0301;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="ILLEGAL_LENGTH;PHP:PHP Word;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Filter\Ascii85Exception.php;f9;27;24;27;;;;vposinteger;;v;;r0x0302;;d-1,-1;;b0,0;;m">
+</treenode>
+</treenode>
+<treenode node="AsciiHex;PHP:Class Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Filter\AsciiHex.php;f0;17;1;48;;;;vpos;;vFilterInterface;;c;;r&#10;Definition&#10;    class AsciiHex implements FilterInterface&#10;&#10;Description&#10;     Class for handling ASCII hexadecimal encoded data;;d0,18;;b0,0;;m">
+<treenode node="decode;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Filter\AsciiHex.php;f11;25;5;33;;;;vpos;;vstring;;r&#10;Definition&#10;    decode($data)&#10;&#10;Description&#10;     Converts an ASCII hexadecimal encoded string into its binary representation.&#10;&#10;Parameters:&#10;    string $data - The input string;;d4,26;;b1,0;;mstring $data;;p">
+</treenode>
+<treenode node="encode;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Filter\AsciiHex.php;f11;42;5;47;;;;vpos;;vstring;;r&#10;Definition&#10;    encode($data, $leaveEOD = false)&#10;&#10;Description&#10;     Converts a string into ASCII hexadecimal representation.&#10;&#10;Parameters:&#10;    string $data - The input string&#10;    boolean $leaveEOD;;d4,43;;b1,0;;mstring $data;;pboolean $leaveEOD;;p">
+</treenode>
+</treenode>
+<treenode node="CarimbadorMaluco;PHP:Class Name;C:\xampp2\htdocs\carimbador\index.php;f0;15;1;25;;;;vpos;;vFpdi;;c;;r;;d35,15;;b0,0;;m">
+<treenode node="salvaArquivoModificado;PHP:Function Name;C:\xampp2\htdocs\carimbador\index.php;f1;21;2;23;;;;vpos;;v;;r;;d34,21;;b0,0;;m">
+</treenode>
+</treenode>
+<treenode node="CrossReference;PHP:Class Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\CrossReference\CrossReference.php;f0;26;1;294;;;;vpos;;v;;r&#10;Definition&#10;    class CrossReference&#10;&#10;Description&#10;     Class CrossReference;;d0,27;;b0,0;;m">
+<treenode node="__construct;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\CrossReference\CrossReference.php;f11;55;5;82;;;;vpos;;v;;r&#10;Definition&#10;    __construct(PdfParser $parser, $fileHeaderOffset = 0)&#10;&#10;Description&#10;     CrossReference constructor.&#10;&#10;Parameters:&#10;    PdfParser $parser;;d4,56;;b1,0;;mparser;;pfileHeaderOffset;;p">
+</treenode>
+<treenode node="checkForEncryption;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\CrossReference\CrossReference.php;f14;246;5;254;;;;vpos;;v;;r&#10;Definition&#10;    checkForEncryption(PdfDictionary $dictionary)&#10;&#10;Description&#10;     Check for encryption.&#10;&#10;Parameters:&#10;    PdfDictionary $dictionary;;d4,247;;b2,0;;mPdfDictionary $dictionary;;p">
+</treenode>
+<treenode node="findStartXref;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\CrossReference\CrossReference.php;f14;262;5;293;;;;vpos;;vint;;r&#10;Definition&#10;    findStartXref()&#10;&#10;Description&#10;     Find the start position for the first cross-reference.&#10;&#10;Return:&#10;   The byte-offset position of the first cross-reference;;d4,263;;b2,0;;m">
+</treenode>
+<treenode node="getIndirectObject;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\CrossReference\CrossReference.php;f11;139;5;170;;;;vpos;;vPdfIndirectObject;;r&#10;Definition&#10;    getIndirectObject($objectNumber)&#10;&#10;Description&#10;     Get an indirect object by its object number.&#10;&#10;Parameters:&#10;    int $objectNumber;;d4,140;;b1,0;;mint $objectNumber;;p">
+</treenode>
+<treenode node="getOffsetFor;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\CrossReference\CrossReference.php;f11;120;5;130;;;;vpos;;vinteger;;r&#10;Definition&#10;    getOffsetFor($objectNumber)&#10;&#10;Description&#10;     Get the offset by an object number.&#10;&#10;Parameters:&#10;    int $objectNumber&#10;&#10;Return:&#10;   |bool;;d4,121;;b1,0;;mint $objectNumber;;p">
+</treenode>
+<treenode node="getReaders;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\CrossReference\CrossReference.php;f11;109;5;112;;;;vpos;;vReaderInterface;;r&#10;Definition&#10;    getReaders()&#10;&#10;Description&#10;     Get the cross reference readser instances.&#10;&#10;Return:&#10;   [];;d4,110;;b1,0;;m">
+</treenode>
+<treenode node="getSize;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\CrossReference\CrossReference.php;f11;89;5;92;;;;vpos;;vinteger;;r&#10;Definition&#10;    getSize()&#10;&#10;Description&#10;     Get the size of the cross reference.;;d4,90;;b1,0;;m">
+</treenode>
+<treenode node="getTrailer;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\CrossReference\CrossReference.php;f11;99;5;102;;;;vpos;;vPdfDictionary;;r&#10;Definition&#10;    getTrailer()&#10;&#10;Description&#10;     Get the trailer dictionary.;;d4,100;;b1,0;;m">
+</treenode>
+<treenode node="initReaderInstance;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\CrossReference\CrossReference.php;f14;197;5;238;;;;vpos;;vReaderInterface;;r&#10;Definition&#10;    initReaderInstance($initValue)&#10;&#10;Description&#10;     Get a cross-reference reader instance.&#10;&#10;Parameters:&#10;    PdfToken|PdfIndirectObject $initValue&#10;&#10;Return:&#10;   |bool;;d4,198;;b2,0;;mPdfToken|PdfIndirectObject $initValue;;p">
+</treenode>
+<treenode node="readXref;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\CrossReference\CrossReference.php;f14;181;5;188;;;;vpos;;vReaderInterface;;r&#10;Definition&#10;    readXref($offset)&#10;&#10;Description&#10;     Read the cross-reference table at a given offset.&#10;&#10;Parameters:&#10;    int $offset;;d4,182;;b2,0;;mint $offset;;p">
+</treenode>
+</treenode>
+<treenode node="CrossReferenceException;PHP:Class Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\CrossReference\CrossReferenceException.php;f0;19;1;80;;;;vpos;;vPdfParserException;;c;;r&#10;Definition&#10;    class CrossReferenceException extends PdfParserException&#10;&#10;Description&#10;     Exception used by the CrossReference and Reader classes.;;d0,20;;b0,0;;m">
+<treenode node="COMPRESSED_XREF;PHP:PHP Word;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\CrossReference\CrossReferenceException.php;f9;74;25;74;;;;vposint;;v;;r0x010B;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="ENCRYPTED;PHP:PHP Word;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\CrossReference\CrossReferenceException.php;f9;79;19;79;;;;vposint;;v;;r0x010C;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="ENTRIES_TOO_LARGE;PHP:PHP Word;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\CrossReference\CrossReferenceException.php;f9;34;27;34;;;;vposint;;v;;r0x0103;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="ENTRIES_TOO_SHORT;PHP:PHP Word;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\CrossReference\CrossReferenceException.php;f9;39;27;39;;;;vposint;;v;;r0x0104;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="INVALID_DATA;PHP:PHP Word;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\CrossReference\CrossReferenceException.php;f9;24;22;24;;;;vposint;;v;;r0x0101;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="NO_ENTRIES;PHP:PHP Word;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\CrossReference\CrossReferenceException.php;f9;44;20;44;;;;vposint;;v;;r0x0105;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="NO_STARTXREF_FOUND;PHP:PHP Word;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\CrossReference\CrossReferenceException.php;f9;54;28;54;;;;vposint;;v;;r0x0107;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="NO_TRAILER_FOUND;PHP:PHP Word;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\CrossReference\CrossReferenceException.php;f9;49;26;49;;;;vposint;;v;;r0x0106;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="NO_XREF_FOUND;PHP:PHP Word;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\CrossReference\CrossReferenceException.php;f9;59;23;59;;;;vposint;;v;;r0x0108;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="OBJECT_NOT_FOUND;PHP:PHP Word;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\CrossReference\CrossReferenceException.php;f9;69;26;69;;;;vposint;;v;;r0x010A;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="UNEXPECTED_END;PHP:PHP Word;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\CrossReference\CrossReferenceException.php;f9;64;24;64;;;;vposint;;v;;r0x0109;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="XREF_MISSING;PHP:PHP Word;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\CrossReference\CrossReferenceException.php;f9;29;22;29;;;;vposint;;v;;r0x0102;;d-1,-1;;b0,0;;m">
+</treenode>
+</treenode>
+<treenode node="FilterException;PHP:Class Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Filter\FilterException.php;f0;19;1;24;;;;vpos;;vPdfParserException;;c;;r&#10;Definition&#10;    class FilterException extends PdfParserException&#10;&#10;Description&#10;     Exception for filters;;d0,20;;b0,0;;m">
+<treenode node="NOT_IMPLEMENTED;PHP:PHP Word;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Filter\FilterException.php;f9;23;25;23;;;;vpos;;v;;r0x0202;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="UNSUPPORTED_FILTER;PHP:PHP Word;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Filter\FilterException.php;f9;21;28;21;;;;vpos;;v;;r0x0201;;d-1,-1;;b0,0;;m">
+</treenode>
+</treenode>
+<treenode node="FixedReader;PHP:Class Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\CrossReference\FixedReader.php;f0;23;1;192;;;;vpos;;vAbstractReader;;cReaderInterface;;c;;r&#10;Definition&#10;    class FixedReader extends AbstractReader implements ReaderInterface&#10;&#10;Description&#10;     Class FixedReader;;d0,24;;b0,0;;m">
+<treenode node="__construct;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\CrossReference\FixedReader.php;f11;42;5;47;;;;vpos;;v;;r&#10;Definition&#10;    __construct(PdfParser $parser)&#10;&#10;Description&#10;     FixedReader constructor.&#10;&#10;Parameters:&#10;    PdfParser $parser;;d4,43;;b1,0;;mPdfParser $parser;;p">
+</treenode>
+<treenode node="fixFaultySubSectionShift;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\CrossReference\FixedReader.php;f11;171;5;191;;;;vpos;;vbool;;r&#10;Definition&#10;    fixFaultySubSectionShift()&#10;&#10;Description&#10;     Fixes an invalid object number shift.;;d4,172;;b1,0;;m">
+</treenode>
+<treenode node="getOffsetFor;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\CrossReference\FixedReader.php;f11;62;5;78;;;;vpos;;v;;r&#10;Definition&#10;    getOffsetFor($objectNumber)&#10;&#10;Description&#10;      inheritdoc;;d4,63;;b1,0;;mobjectNumber;;p">
+</treenode>
+<treenode node="getSubSections;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\CrossReference\FixedReader.php;f11;54;5;57;;;;vpos;;varray;;r&#10;Definition&#10;    getSubSections()&#10;&#10;Description&#10;     Get all subsection data.;;d4,55;;b1,0;;m">
+</treenode>
+<treenode node="read;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\CrossReference\FixedReader.php;f14;88;5;148;;;;vpos;;v;;r&#10;Definition&#10;    read()&#10;&#10;Description&#10;     Read the cross-reference.;;d4,89;;b2,0;;m">
+</treenode>
+</treenode>
+<treenode node="Flate;PHP:Class Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Filter\Flate.php;f0;17;1;68;;;;vpos;;vFilterInterface;;c;;r&#10;Definition&#10;    class Flate implements FilterInterface&#10;&#10;Description&#10;     Class for handling zlib/deflate encoded data;;d0,18;;b0,0;;m">
+<treenode node="decode;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Filter\Flate.php;f11;39;5;67;;;;vpos;;vstring;;r&#10;Definition&#10;    decode($data)&#10;&#10;Description&#10;     Decodes a flate compressed string.&#10;&#10;Parameters:&#10;    string $data - The input string;;d4,40;;b1,0;;mstring $data;;p">
+</treenode>
+<treenode node="extensionLoaded;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Filter\Flate.php;f14;27;5;30;;;;vpos;;vboolean;;r&#10;Definition&#10;    extensionLoaded()&#10;&#10;Description&#10;     Checks whether the zlib extension is loaded.;;d4,28;;b2,0;;m">
+</treenode>
+</treenode>
+<treenode node="FlateException;PHP:Class Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Filter\FlateException.php;f0;17;1;28;;;;vpos;;vFilterException;;c;;r&#10;Definition&#10;    class FlateException extends FilterException&#10;&#10;Description&#10;     Exception for flate filter class;;d0,18;;b0,0;;m">
+<treenode node="DECOMPRESS_ERROR;PHP:PHP Word;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Filter\FlateException.php;f9;27;26;27;;;;vposinteger;;v;;r0x0402;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="NO_ZLIB;PHP:PHP Word;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Filter\FlateException.php;f9;22;17;22;;;;vposinteger;;v;;r0x0401;;d-1,-1;;b0,0;;m">
+</treenode>
+</treenode>
+<treenode node="FPDF;PHP:Class Name;C:\xampp2\htdocs\carimbador\fpdf\fpdf.php;f0;11;1;1884;;;;vpos;;v;;r;;d0,12;;b0,0;;m">
+<treenode node="__construct;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\fpdf.php;f0;73;1;169;;;;vpos;;v;;r;;d0,74;;b0,0;;morientation;;punit;;psize;;p">
+</treenode>
+<treenode node="_beginpage;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\fpdf.php;f10;1073;1;1118;;;;vpos;;v;;r;;d0,1074;;b2,0;;morientation;;psize;;protation;;p">
+</treenode>
+<treenode node="_checkoutput;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\fpdf.php;f10;1034;1;1052;;;;vpos;;v;;r;;d0,1035;;b2,0;;m">
+</treenode>
+<treenode node="_dochecks;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\fpdf.php;f10;1024;1;1032;;;;vpos;;v;;r;;d0,1025;;b2,0;;m">
+</treenode>
+<treenode node="_dounderline;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\fpdf.php;f10;1215;1;1222;;;;vpos;;v;;r;;d0,1216;;b2,0;;mx;;py;;ptxt;;p">
+</treenode>
+<treenode node="_enddoc;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\fpdf.php;f10;1850;1;1883;;;;vpos;;v;;r;;d0,1851;;b2,0;;m">
+</treenode>
+<treenode node="_endpage;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\fpdf.php;f10;1120;1;1123;;;;vpos;;v;;r;;d0,1121;;b2,0;;m">
+</treenode>
+<treenode node="_escape;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\fpdf.php;f10;1198;1;1205;;;;vpos;;v;;r;;d0,1199;;b2,0;;ms;;p">
+</treenode>
+<treenode node="_getoffset;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\fpdf.php;f10;1447;1;1450;;;;vpos;;v;;r;;d0,1448;;b2,0;;m">
+</treenode>
+<treenode node="_getpagesize;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\fpdf.php;f10;1054;1;1071;;;;vpos;;v;;r;;d0,1055;;b2,0;;msize;;p">
+</treenode>
+<treenode node="_httpencode;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\fpdf.php;f10;1152;1;1163;;;;vpos;;v;;r;;d0,1153;;b2,0;;mparam;;pvalue;;pisUTF8;;p">
+</treenode>
+<treenode node="_isascii;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\fpdf.php;f10;1140;1;1150;;;;vpos;;v;;r;;d0,1141;;b2,0;;ms;;p">
+</treenode>
+<treenode node="_loadfont;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\fpdf.php;f10;1125;1;1138;;;;vpos;;v;;r;;d0,1126;;b2,0;;mfont;;p">
+</treenode>
+<treenode node="_newobj;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\fpdf.php;f10;1452;1;1459;;;;vpos;;v;;r;;d0,1453;;b2,0;;mn;;p">
+</treenode>
+<treenode node="_out;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\fpdf.php;f10;1429;1;1440;;;;vpos;;v;;r;;d0,1430;;b2,0;;ms;;p">
+</treenode>
+<treenode node="_parsegif;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\fpdf.php;f10;1404;1;1427;;;;vpos;;v;;r;;d0,1405;;b2,0;;mfile;;p">
+</treenode>
+<treenode node="_parsejpg;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\fpdf.php;f10;1224;1;1241;;;;vpos;;v;;r;;d0,1225;;b2,0;;mfile;;p">
+</treenode>
+<treenode node="_parsepng;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\fpdf.php;f10;1243;1;1252;;;;vpos;;v;;r;;d0,1244;;b2,0;;mfile;;p">
+</treenode>
+<treenode node="_parsepngstream;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\fpdf.php;f10;1254;1;1378;;;;vpos;;v;;r;;d0,1255;;b2,0;;mf;;pfile;;p">
+</treenode>
+<treenode node="_put;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\fpdf.php;f10;1442;1;1445;;;;vpos;;v;;r;;d0,1443;;b2,0;;ms;;p">
+</treenode>
+<treenode node="_putcatalog;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\fpdf.php;f10;1817;1;1836;;;;vpos;;v;;r;;d0,1818;;b2,0;;m">
+</treenode>
+<treenode node="_putfonts;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\fpdf.php;f10;1556;1;1671;;;;vpos;;v;;r;;d0,1557;;b2,0;;m">
+</treenode>
+<treenode node="_putheader;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\fpdf.php;f10;1838;1;1841;;;;vpos;;v;;r;;d0,1839;;b2,0;;m">
+</treenode>
+<treenode node="_putimage;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\fpdf.php;f10;1734;1;1777;;;;vpos;;v;;r;;d0,1735;;b2,0;;minfo;;p">
+</treenode>
+<treenode node="_putimages;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\fpdf.php;f10;1724;1;1732;;;;vpos;;v;;r;;d0,1725;;b2,0;;m">
+</treenode>
+<treenode node="_putinfo;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\fpdf.php;f10;1809;1;1815;;;;vpos;;v;;r;;d0,1810;;b2,0;;m">
+</treenode>
+<treenode node="_putpage;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\fpdf.php;f10;1484;1;1524;;;;vpos;;v;;r;;d0,1485;;b2,0;;mn;;p">
+</treenode>
+<treenode node="_putpages;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\fpdf.php;f10;1526;1;1554;;;;vpos;;v;;r;;d0,1527;;b2,0;;m">
+</treenode>
+<treenode node="_putresourcedict;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\fpdf.php;f10;1785;1;1795;;;;vpos;;v;;r;;d0,1786;;b2,0;;m">
+</treenode>
+<treenode node="_putresources;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\fpdf.php;f10;1797;1;1807;;;;vpos;;v;;r;;d0,1798;;b2,0;;m">
+</treenode>
+<treenode node="_putstream;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\fpdf.php;f10;1461;1;1466;;;;vpos;;v;;r;;d0,1462;;b2,0;;mdata;;p">
+</treenode>
+<treenode node="_putstreamobject;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\fpdf.php;f10;1468;1;1482;;;;vpos;;v;;r;;d0,1469;;b2,0;;mdata;;p">
+</treenode>
+<treenode node="_puttrailer;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\fpdf.php;f10;1843;1;1848;;;;vpos;;v;;r;;d0,1844;;b2,0;;m">
+</treenode>
+<treenode node="_putxobjectdict;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\fpdf.php;f10;1779;1;1783;;;;vpos;;v;;r;;d0,1780;;b2,0;;m">
+</treenode>
+<treenode node="_readint;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\fpdf.php;f10;1397;1;1402;;;;vpos;;v;;r;;d0,1398;;b2,0;;mf;;p">
+</treenode>
+<treenode node="_readstream;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\fpdf.php;f10;1380;1;1395;;;;vpos;;v;;r;;d0,1381;;b2,0;;mf;;pn;;p">
+</treenode>
+<treenode node="_textstring;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\fpdf.php;f10;1207;1;1213;;;;vpos;;v;;r;;d0,1208;;b2,0;;ms;;p">
+</treenode>
+<treenode node="_tounicodecmap;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\fpdf.php;f10;1673;1;1722;;;;vpos;;v;;r;;d0,1674;;b2,0;;muv;;p">
+</treenode>
+<treenode node="_UTF8toUTF16;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\fpdf.php;f10;1165;1;1196;;;;vpos;;v;;r;;d0,1166;;b2,0;;ms;;p">
+</treenode>
+<treenode node="AcceptPageBreak;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\fpdf.php;f0;569;1;573;;;;vpos;;v;;r;;d0,570;;b0,0;;m">
+</treenode>
+<treenode node="AddFont;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\fpdf.php;f0;446;1;469;;;;vpos;;v;;r;;d0,447;;b0,0;;mfamily;;pstyle;;pfile;;p">
+</treenode>
+<treenode node="AddLink;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\fpdf.php;f0;532;1;538;;;;vpos;;v;;r;;d0,533;;b0,0;;m">
+</treenode>
+<treenode node="AddPage;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\fpdf.php;f0;290;1;357;;;;vpos;;v;;r;;d0,291;;b0,0;;morientation;;psize;;protation;;p">
+</treenode>
+<treenode node="AliasNbPages;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\fpdf.php;f0;261;1;265;;;;vpos;;v;;r;;d0,262;;b0,0;;malias;;p">
+</treenode>
+<treenode node="Cell;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\fpdf.php;f0;575;1;653;;;;vpos;;v;;r;;d0,576;;b0,0;;mw;;ph;;ptxt;;pborder;;pln;;palign;;pfill;;plink;;p">
+</treenode>
+<treenode node="Close;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\fpdf.php;f0;273;1;288;;;;vpos;;v;;r;;d0,274;;b0,0;;m">
+</treenode>
+<treenode node="Error;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\fpdf.php;f0;267;1;271;;;;vpos;;v;;r;;d0,268;;b0,0;;mmsg;;p">
+</treenode>
+<treenode node="Footer;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\fpdf.php;f0;364;1;367;;;;vpos;;v;;r;;d0,365;;b0,0;;m">
+</treenode>
+<treenode node="GetStringWidth;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\fpdf.php;f0;408;1;418;;;;vpos;;v;;r;;d0,409;;b0,0;;ms;;p">
+</treenode>
+<treenode node="GetX;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\fpdf.php;f0;928;1;932;;;;vpos;;v;;r;;d0,929;;b0,0;;m">
+</treenode>
+<treenode node="GetY;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\fpdf.php;f0;943;1;947;;;;vpos;;v;;r;;d0,944;;b0,0;;m">
+</treenode>
+<treenode node="Header;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\fpdf.php;f0;359;1;362;;;;vpos;;v;;r;;d0,360;;b0,0;;m">
+</treenode>
+<treenode node="Image;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\fpdf.php;f0;863;1;926;;;;vpos;;v;;r;;d0,864;;b0,0;;mfile;;px;;py;;pw;;ph;;ptype;;plink;;p">
+</treenode>
+<treenode node="Line;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\fpdf.php;f0;428;1;432;;;;vpos;;v;;r;;d0,429;;b0,0;;mx1;;py1;;px2;;py2;;p">
+</treenode>
+<treenode node="Link;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\fpdf.php;f0;550;1;554;;;;vpos;;v;;r;;d0,551;;b0,0;;mx;;py;;pw;;ph;;plink;;p">
+</treenode>
+<treenode node="Ln;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\fpdf.php;f0;853;1;861;;;;vpos;;v;;r;;d0,854;;b0,0;;mh;;p">
+</treenode>
+<treenode node="MultiCell;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\fpdf.php;f0;655;1;768;;;;vpos;;v;;r;;d0,656;;b0,0;;mw;;ph;;ptxt;;pborder;;palign;;pfill;;p">
+</treenode>
+<treenode node="Output;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\fpdf.php;f0;967;1;1018;;;;vpos;;v;;r;;d0,968;;b0,0;;mdest;;pname;;pisUTF8;;p">
+</treenode>
+<treenode node="PageNo;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\fpdf.php;f0;369;1;373;;;;vpos;;v;;r;;d0,370;;b0,0;;m">
+</treenode>
+<treenode node="Rect;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\fpdf.php;f0;434;1;444;;;;vpos;;v;;r;;d0,435;;b0,0;;mx;;py;;pw;;ph;;pstyle;;p">
+</treenode>
+<treenode node="SetAuthor;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\fpdf.php;f0;237;1;241;;;;vpos;;v;;r;;d0,238;;b0,0;;mauthor;;pisUTF8;;p">
+</treenode>
+<treenode node="SetAutoPageBreak;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\fpdf.php;f0;201;1;207;;;;vpos;;v;;r;;d0,202;;b0,0;;mauto;;pmargin;;p">
+</treenode>
+<treenode node="SetCompression;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\fpdf.php;f0;222;1;229;;;;vpos;;v;;r;;d0,223;;b0,0;;mcompress;;p">
+</treenode>
+<treenode node="SetCreator;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\fpdf.php;f0;255;1;259;;;;vpos;;v;;r;;d0,256;;b0,0;;mcreator;;pisUTF8;;p">
+</treenode>
+<treenode node="SetDisplayMode;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\fpdf.php;f0;209;1;220;;;;vpos;;v;;r;;d0,210;;b0,0;;mzoom;;playout;;p">
+</treenode>
+<treenode node="SetDrawColor;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\fpdf.php;f0;375;1;384;;;;vpos;;v;;r;;d0,376;;b0,0;;mr;;pg;;pb;;p">
+</treenode>
+<treenode node="SetFillColor;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\fpdf.php;f0;386;1;396;;;;vpos;;v;;r;;d0,387;;b0,0;;mr;;pg;;pb;;p">
+</treenode>
+<treenode node="SetFont;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\fpdf.php;f0;471;1;519;;;;vpos;;v;;r;;d0,472;;b0,0;;mfamily;;pstyle;;psize;;p">
+</treenode>
+<treenode node="SetFontSize;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\fpdf.php;f0;521;1;530;;;;vpos;;v;;r;;d0,522;;b0,0;;msize;;p">
+</treenode>
+<treenode node="SetKeywords;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\fpdf.php;f0;249;1;253;;;;vpos;;v;;r;;d0,250;;b0,0;;mkeywords;;pisUTF8;;p">
+</treenode>
+<treenode node="SetLeftMargin;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\fpdf.php;f0;181;1;187;;;;vpos;;v;;r;;d0,182;;b0,0;;mmargin;;p">
+</treenode>
+<treenode node="SetLineWidth;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\fpdf.php;f0;420;1;426;;;;vpos;;v;;r;;d0,421;;b0,0;;mwidth;;p">
+</treenode>
+<treenode node="SetLink;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\fpdf.php;f0;540;1;548;;;;vpos;;v;;r;;d0,541;;b0,0;;mlink;;py;;ppage;;p">
+</treenode>
+<treenode node="SetMargins;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\fpdf.php;f0;171;1;179;;;;vpos;;v;;r;;d0,172;;b0,0;;mleft;;ptop;;pright;;p">
+</treenode>
+<treenode node="SetRightMargin;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\fpdf.php;f0;195;1;199;;;;vpos;;v;;r;;d0,196;;b0,0;;mmargin;;p">
+</treenode>
+<treenode node="SetSubject;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\fpdf.php;f0;243;1;247;;;;vpos;;v;;r;;d0,244;;b0,0;;msubject;;pisUTF8;;p">
+</treenode>
+<treenode node="SetTextColor;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\fpdf.php;f0;398;1;406;;;;vpos;;v;;r;;d0,399;;b0,0;;mr;;pg;;pb;;p">
+</treenode>
+<treenode node="SetTitle;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\fpdf.php;f0;231;1;235;;;;vpos;;v;;r;;d0,232;;b0,0;;mtitle;;pisUTF8;;p">
+</treenode>
+<treenode node="SetTopMargin;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\fpdf.php;f0;189;1;193;;;;vpos;;v;;r;;d0,190;;b0,0;;mmargin;;p">
+</treenode>
+<treenode node="SetX;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\fpdf.php;f0;934;1;941;;;;vpos;;v;;r;;d0,935;;b0,0;;mx;;p">
+</treenode>
+<treenode node="SetXY;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\fpdf.php;f0;960;1;965;;;;vpos;;v;;r;;d0,961;;b0,0;;mx;;py;;p">
+</treenode>
+<treenode node="SetY;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\fpdf.php;f0;949;1;958;;;;vpos;;v;;r;;d0,950;;b0,0;;my;;presetX;;p">
+</treenode>
+<treenode node="Text;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\fpdf.php;f0;556;1;567;;;;vpos;;v;;r;;d0,557;;b0,0;;mx;;py;;ptxt;;p">
+</treenode>
+<treenode node="Write;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\fpdf.php;f0;770;1;851;;;;vpos;;v;;r;;d0,771;;b0,0;;mh;;ptxt;;plink;;p">
+</treenode>
+</treenode>
+<treenode node="FpdfTpl;PHP:Class Name;C:\xampp2\htdocs\carimbador\FPDI\src\FpdfTpl.php;f0;19;1;427;;;;vpos;;vFPDF;;c;;r&#10;Definition&#10;    class FpdfTpl extends \FPDF&#10;&#10;Description&#10;     Class FpdfTpl;;d0,20;;b0,0;;m">
+<treenode node="_out;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\FpdfTpl.php;f11;419;5;426;;;;vpos;;v;;r&#10;Definition&#10;    _out($s)&#10;&#10;Description&#10;      inheritdoc;;d4,420;;b1,0;;ms;;p">
+</treenode>
+<treenode node="_putimages;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\FpdfTpl.php;f14;378;5;402;;;;vpos;;v;;r&#10;Definition&#10;    _putimages()&#10;&#10;Description&#10;      inheritdoc;;d4,379;;b2,0;;m">
+</treenode>
+<treenode node="_putxobjectdict;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\FpdfTpl.php;f14;407;5;414;;;;vpos;;v;;r&#10;Definition&#10;    _putxobjectdict()&#10;&#10;Description&#10;      inheritdoc;;d4,408;;b2,0;;m">
+</treenode>
+<treenode node="beginTemplate;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\FpdfTpl.php;f11;184;5;244;;;;vpos;;vint;;r&#10;Definition&#10;    beginTemplate($width = null, $height = null)&#10;&#10;Description&#10;     Begins a new template.&#10;&#10;Parameters:&#10;    float|int|null $width - The width of the template&#10;    float|int|null $height - The height of the template&#10;&#10;Return:&#10;   A template identifier;;d4,185;;b1,0;;mfloat|int|null $width;;pfloat|int|null $height;;p">
+</treenode>
+<treenode node="endTemplate;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\FpdfTpl.php;f11;251;5;284;;;;vpos;;vbool;;r&#10;Definition&#10;    endTemplate()&#10;&#10;Description&#10;     Ends a template.&#10;&#10;Return:&#10;   |int|null A template identifier;;d4,252;;b1,0;;m">
+</treenode>
+<treenode node="getNextTemplateId;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\FpdfTpl.php;f14;291;5;294;;;;vpos;;vint;;r&#10;Definition&#10;    getNextTemplateId()&#10;&#10;Description&#10;     Get the next template id.;;d4,292;;b2,0;;m">
+</treenode>
+<treenode node="getTemplateSize;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\FpdfTpl.php;f11;147;5;175;;;;vpos;;varray;;r&#10;Definition&#10;    getTemplateSize($tpl, $width = null, $height = null)&#10;&#10;Description&#10;     Get the size of a template.&#10;&#10;Parameters:&#10;    mixed $tpl - The template id&#10;    float|int|null $width - The width&#10;    float|int|null $height - The height&#10;&#10;Return:&#10;   |bool An array with following keys: width, height, 0 (=width), 1 (=height), orientation (L or P);;d4,148;;b1,0;;mmixed $tpl;;pfloat|int|null $width;;pfloat|int|null $height;;p">
+</treenode>
+<treenode node="Link;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\FpdfTpl.php;f11;301;5;307;;;;vpos;;v;;r&#10;Definition&#10;    Link($x, $y, $w, $h, $link)&#10;&#10;Description&#10;      inheritdoc;;d4,302;;b1,0;;mx;;py;;pw;;ph;;plink;;p">
+</treenode>
+<treenode node="SetDrawColor;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\FpdfTpl.php;f11;323;5;329;;;;vpos;;v;;r&#10;Definition&#10;    SetDrawColor($r, $g = null, $b = null)&#10;&#10;Description&#10;      inheritdoc;;d4,324;;b1,0;;mr;;pg;;pb;;p">
+</treenode>
+<treenode node="SetFillColor;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\FpdfTpl.php;f11;334;5;340;;;;vpos;;v;;r&#10;Definition&#10;    SetFillColor($r, $g = null, $b = null)&#10;&#10;Description&#10;      inheritdoc;;d4,335;;b1,0;;mr;;pg;;pb;;p">
+</treenode>
+<treenode node="SetFont;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\FpdfTpl.php;f11;356;5;362;;;;vpos;;v;;r&#10;Definition&#10;    SetFont($family, $style = &apos;&apos;, $size = 0)&#10;&#10;Description&#10;      inheritdoc;;d4,357;;b1,0;;mfamily;;pstyle;;psize;;p">
+</treenode>
+<treenode node="SetFontSize;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\FpdfTpl.php;f11;367;5;373;;;;vpos;;v;;r&#10;Definition&#10;    SetFontSize($size)&#10;&#10;Description&#10;      inheritdoc;;d4,368;;b1,0;;msize;;p">
+</treenode>
+<treenode node="SetLineWidth;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\FpdfTpl.php;f11;345;5;351;;;;vpos;;v;;r&#10;Definition&#10;    SetLineWidth($width)&#10;&#10;Description&#10;      inheritdoc;;d4,346;;b1,0;;mwidth;;p">
+</treenode>
+<treenode node="SetLink;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\FpdfTpl.php;f11;312;5;318;;;;vpos;;v;;r&#10;Definition&#10;    SetLink($link, $y = 0, $page = -1)&#10;&#10;Description&#10;      inheritdoc;;d4,313;;b1,0;;mlink;;py;;ppage;;p">
+</treenode>
+<treenode node="setPageFormat;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\FpdfTpl.php;f11;48;5;79;;;;vpos;;v;;r&#10;Definition&#10;    setPageFormat($size, $orientation)&#10;&#10;Description&#10;     Set the page format of the current page.&#10;&#10;Parameters:&#10;    array $size - An array with two values defining the size&#10;    string $orientation - &quot;L&quot; for landscape, &quot;P&quot; for portrait;;d4,49;;b1,0;;marray $size;;pstring $orientation;;p">
+</treenode>
+<treenode node="useTemplate;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\FpdfTpl.php;f11;97;5;134;;;;vpos;;varray;;r&#10;Definition&#10;    useTemplate($tpl, $x = 0, $y = 0, $width = null, $height = null, $adjustPageSize = false)&#10;&#10;Description&#10;     Draws a template onto the page or another template.&#10;&#10;Parameters:&#10;    mixed $tpl - The template id&#10;    array|float|int $x - The abscissa of upper-left corner&#10;    float|int $y - The ordinate of upper-left corner&#10;    float|int|null $width - The width&#10;    float|int|null $height - The height&#10;    bool $adjustPageSize&#10;&#10;Return:&#10;   The size;;d4,98;;b1,0;;mmixed $tpl;;parray|float|int $x;;pfloat|int $y;;pfloat|int|null $width;;pfloat|int|null $height;;pbool $adjustPageSize;;p">
+</treenode>
+</treenode>
+<treenode node="Fpdi;PHP:Class Name;C:\xampp2\htdocs\carimbador\FPDI\src\Fpdi.php;f0;23;1;146;;;;vpos;;vFpdfTpl;;cFpdiTrait;;c;;r&#10;Definition&#10;    class Fpdi extends FpdfTpl&#10;&#10;Description&#10;     Class Fpdi;;d0,24;;b0,0;;m">
+<treenode node="VERSION;PHP:PHP Word;C:\xampp2\htdocs\carimbador\FPDI\src\Fpdi.php;f9;32;17;32;;;;vpos;;v;;r&#10;Description&#10;     FPDI version;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="_put;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\Fpdi.php;f14;138;5;145;;;;vpos;;v;;r&#10;Definition&#10;    _put($s, $newLine = true)&#10;&#10;Description&#10;      inheritdoc;;d4,139;;b2,0;;ms;;pnewLine;;p">
+</treenode>
+<treenode node="_putimages;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\Fpdi.php;f14;87;5;121;;;;vpos;;v;;r&#10;Definition&#10;    _putimages()&#10;&#10;Description&#10;      inheritdoc;;d4,88;;b2,0;;m">
+</treenode>
+<treenode node="_putxobjectdict;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\Fpdi.php;f14;126;5;133;;;;vpos;;v;;r&#10;Definition&#10;    _putxobjectdict()&#10;&#10;Description&#10;      inheritdoc;;d4,127;;b2,0;;m">
+</treenode>
+<treenode node="getTemplateSize;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\Fpdi.php;f11;74;5;82;;;;vpos;;varray;;r&#10;Definition&#10;    getTemplateSize($tpl, $width = null, $height = null)&#10;&#10;Description&#10;     Get the size of an imported page or template.&#10;&#10;Parameters:&#10;    mixed $tpl - The template id&#10;    float|int|null $width - The width&#10;    float|int|null $height - The height&#10;&#10;Return:&#10;   |bool An array with following keys: width, height, 0 (=width), 1 (=height), orientation (L or P);;d4,75;;b1,0;;mmixed $tpl;;pfloat|int|null $width;;pfloat|int|null $height;;p">
+</treenode>
+<treenode node="useTemplate;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\Fpdi.php;f11;50;5;61;;;;vpos;;varray;;r&#10;Definition&#10;    useTemplate($tpl, $x = 0, $y = 0, $width = null, $height = null, $adjustPageSize = false)&#10;&#10;Description&#10;     Draws an imported page or a template onto the page or another template.&#10;&#10;Parameters:&#10;    mixed $tpl - The template id&#10;    float|int|array $x - The abscissa of upper-left corner&#10;    float|int $y - The ordinate of upper-left corner&#10;    float|int|null $width - The width&#10;    float|int|null $height - The height&#10;    bool $adjustPageSize&#10;&#10;Return:&#10;   The size;;d4,51;;b1,0;;mmixed $tpl;;pfloat|int|array $x;;pfloat|int $y;;pfloat|int|null $width;;pfloat|int|null $height;;pbool $adjustPageSize;;p">
+</treenode>
+</treenode>
+<treenode node="FpdiException;PHP:Class Name;C:\xampp2\htdocs\carimbador\FPDI\src\FpdiException.php;f0;17;1;19;;;;vpos;;vException;;c;;r&#10;Definition&#10;    class FpdiException extends \Exception&#10;&#10;Description&#10;     Base exception class for the FPDI package.;;d0,18;;b0,0;;m">
+</treenode>
+<treenode node="FpdiTrait;PHP:Class Name;C:\xampp2\htdocs\carimbador\FPDI\src\FpdiTrait.php;f0;43;1;522;;;;vpos;;v;;r&#10;Definition&#10;    trait FpdiTrait&#10;&#10;Description&#10;     The FpdiTrait;;d0,44;;b0,0;;m">
+<treenode node="getImportedPageSize;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\FpdiTrait.php;f11;412;5;442;;;;vpos;;varray;;r&#10;Definition&#10;    getImportedPageSize($tpl, $width = null, $height = null)&#10;&#10;Description&#10;     Get the size of an imported page.&#10;&#10;Parameters:&#10;    mixed $tpl - The template id&#10;    float|int|null $width - The width&#10;    float|int|null $height - The height&#10;&#10;Return:&#10;   |bool An array with following keys: width, height, 0 (=width), 1 (=height), orientation (L or P);;d4,413;;b1,0;;mmixed $tpl;;pfloat|int|null $width;;pfloat|int|null $height;;p">
+</treenode>
+<treenode node="getPdfParserInstance;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\FpdiTrait.php;f14;99;5;108;;;;vpos;;vPdfParser;;r&#10;Definition&#10;    getPdfParserInstance(StreamReader $streamReader)&#10;&#10;Description&#10;     Get a new pdf parser instance.&#10;&#10;Parameters:&#10;    StreamReader $streamReader&#10;&#10;Return:&#10;   |FpdiPdfParser;;d4,100;;b2,0;;mStreamReader $streamReader;;p">
+</treenode>
+<treenode node="getPdfReader;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\FpdiTrait.php;f14;158;5;167;;;;vpos;;vPdfReader;;r&#10;Definition&#10;    getPdfReader($id)&#10;&#10;Description&#10;     Get a pdf reader instance by its id.&#10;&#10;Parameters:&#10;    string $id;;d4,159;;b2,0;;mstring $id;;p">
+</treenode>
+<treenode node="getPdfReaderId;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\FpdiTrait.php;f14;117;5;150;;;;vpos;;vstring;;r&#10;Definition&#10;    getPdfReaderId($file)&#10;&#10;Description&#10;     Get an unique reader id by the $file parameter.&#10;&#10;Parameters:&#10;    string|resource|PdfReader|StreamReader $file - An open file descriptor, a path to a file, a PdfReader;;d4,118;;b2,0;;mstring|resource|PdfReader|StreamReader $file;;p">
+</treenode>
+<treenode node="importPage;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\FpdiTrait.php;f11;196;5;345;;;;vpos;;vstring;;r&#10;Definition&#10;    importPage($pageNumber, $box = PageBoundaries::CROP_BOX, $groupXObject = true)&#10;&#10;Description&#10;     Imports a page.&#10;&#10;Parameters:&#10;    int $pageNumber - The page number&#10;    string $box - The page boundary to import&#10;    bool $groupXObject - Define the form XObject as a group XObject to support transparency (if used)&#10;&#10;Return:&#10;   A unique string identifying the imported page;;d4,197;;b1,0;;mint $pageNumber;;pstring $box;;pbool $groupXObject;;p">
+</treenode>
+<treenode node="setMinPdfVersion;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\FpdiTrait.php;f14;85;5;90;;;;vpos;;v;;r&#10;Definition&#10;    setMinPdfVersion($pdfVersion)&#10;&#10;Description&#10;     Set the minimal PDF version.&#10;&#10;Parameters:&#10;    string $pdfVersion;;d4,86;;b2,0;;mstring $pdfVersion;;p">
+</treenode>
+<treenode node="setSourceFile;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\FpdiTrait.php;f11;175;5;184;;;;vpos;;vint;;r&#10;Definition&#10;    setSourceFile($file)&#10;&#10;Description&#10;     Set the source PDF file.&#10;&#10;Parameters:&#10;    string|resource|StreamReader $file - Path to the file or a stream resource or a StreamReader instance&#10;&#10;Return:&#10;   The page count of the PDF document;;d4,176;;b1,0;;mstring|resource|StreamReader $file;;p">
+</treenode>
+<treenode node="useImportedPage;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\FpdiTrait.php;f11;363;5;399;;;;vpos;;varray;;r&#10;Definition&#10;    useImportedPage($pageId, $x = 0, $y = 0, $width = null, $height = null, $adjustPageSize = false)&#10;&#10;Description&#10;     Draws an imported page onto the page.&#10;&#10;Parameters:&#10;    mixed $pageId - The page id&#10;    float|int|array $x - The abscissa of upper-left corner&#10;    float|int $y - The ordinate of upper-left corner&#10;    float|int|null $width - The width&#10;    float|int|null $height - The height&#10;    bool $adjustPageSize&#10;&#10;Return:&#10;   The size;;d4,364;;b1,0;;mmixed $pageId;;pfloat|int|array $x;;pfloat|int $y;;pfloat|int|null $width;;pfloat|int|null $height;;pbool $adjustPageSize;;p">
+</treenode>
+<treenode node="writePdfType;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\FpdiTrait.php;f14;449;5;521;;;;vpos;;v;;r&#10;Definition&#10;    writePdfType(PdfType $value)&#10;&#10;Description&#10;     Writes a PdfType object to the resulting buffer.&#10;&#10;Parameters:&#10;    PdfType $value;;d4,450;;b2,0;;mPdfType $value;;p">
+</treenode>
+</treenode>
+<treenode node="LineReader;PHP:Class Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\CrossReference\LineReader.php;f0;23;1;172;;;;vpos;;vAbstractReader;;cReaderInterface;;c;;r&#10;Definition&#10;    class LineReader extends AbstractReader implements ReaderInterface&#10;&#10;Description&#10;     Class LineReader;;d0,24;;b0,0;;m">
+<treenode node="__construct;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\CrossReference\LineReader.php;f11;37;5;41;;;;vpos;;v;;r&#10;Definition&#10;    __construct(PdfParser $parser)&#10;&#10;Description&#10;     LineReader constructor.&#10;&#10;Parameters:&#10;    PdfParser $parser;;d4,38;;b1,0;;mPdfParser $parser;;p">
+</treenode>
+<treenode node="extract;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\CrossReference\LineReader.php;f14;72;5;98;;;;vpos;;vstring;;r&#10;Definition&#10;    extract(StreamReader $reader)&#10;&#10;Description&#10;     Extracts the cross reference data from the stream reader.&#10;&#10;Parameters:&#10;    StreamReader $reader;;d4,73;;b2,0;;mStreamReader $reader;;p">
+</treenode>
+<treenode node="getOffsetFor;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\CrossReference\LineReader.php;f11;46;5;53;;;;vpos;;v;;r&#10;Definition&#10;    getOffsetFor($objectNumber)&#10;&#10;Description&#10;      inheritdoc;;d4,47;;b1,0;;mobjectNumber;;p">
+</treenode>
+<treenode node="getOffsets;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\CrossReference\LineReader.php;f11;60;5;63;;;;vpos;;varray;;r&#10;Definition&#10;    getOffsets()&#10;&#10;Description&#10;     Get all found offsets.;;d4,61;;b1,0;;m">
+</treenode>
+<treenode node="read;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\CrossReference\LineReader.php;f14;106;5;171;;;;vpos;;v;;r&#10;Definition&#10;    read($xrefContent)&#10;&#10;Description&#10;     Read the cross-reference entries.&#10;&#10;Parameters:&#10;    string $xrefContent;;d4,107;;b2,0;;mstring $xrefContent;;p">
+</treenode>
+</treenode>
+<treenode node="Lzw;PHP:Class Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Filter\Lzw.php;f0;17;1;189;;;;vpos;;vFilterInterface;;c;;r&#10;Definition&#10;    class Lzw implements FilterInterface&#10;&#10;Description&#10;     Class for handling LZW encoded data;;d0,18;;b0,0;;m">
+<treenode node="addStringToTable;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Filter\Lzw.php;f14;149;5;163;;;;vpos;;v;;r&#10;Definition&#10;    addStringToTable($oldString, $newString = &apos;&apos;)&#10;&#10;Description&#10;     Add a new string to the string table.&#10;&#10;Parameters:&#10;    string $oldString&#10;    string $newString;;d4,150;;b2,0;;mstring $oldString;;pstring $newString;;p">
+</treenode>
+<treenode node="decode;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Filter\Lzw.php;f11;71;5;126;;;;vpos;;vstring;;r&#10;Definition&#10;    decode($data)&#10;&#10;Description&#10;     Method to decode LZW compressed data.&#10;&#10;Parameters:&#10;    string $data - The compressed data&#10;&#10;Return:&#10;   The uncompressed data;;d4,72;;b1,0;;mstring $data;;p">
+</treenode>
+<treenode node="getNextCode;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Filter\Lzw.php;f14;170;5;188;;;;vpos;;vinteger;;r&#10;Definition&#10;    getNextCode()&#10;&#10;Description&#10;     Returns the next 9, 10, 11 or 12 bits.;;d4,171;;b2,0;;m">
+</treenode>
+<treenode node="initsTable;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Filter\Lzw.php;f14;131;5;141;;;;vpos;;v;;r&#10;Definition&#10;    initsTable()&#10;&#10;Description&#10;     Initialize the string table.;;d4,132;;b2,0;;m">
+</treenode>
+</treenode>
+<treenode node="LzwException;PHP:Class Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Filter\LzwException.php;f0;17;1;23;;;;vpos;;vFilterException;;c;;r&#10;Definition&#10;    class LzwException extends FilterException&#10;&#10;Description&#10;     Exception for LZW filter class;;d0,18;;b0,0;;m">
+<treenode node="LZW_FLAVOUR_NOT_SUPPORTED;PHP:PHP Word;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Filter\LzwException.php;f9;22;35;22;;;;vposinteger;;v;;r0x0501;;d-1,-1;;b0,0;;m">
+</treenode>
+</treenode>
+<treenode node="Page;PHP:Class Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfReader\Page.php;f0;27;1;250;;;;vpos;;v;;r&#10;Definition&#10;    class Page&#10;&#10;Description&#10;     Class representing a page of a PDF document;;d0,28;;b0,0;;m">
+<treenode node="__construct;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfReader\Page.php;f11;57;5;61;;;;vpos;;v;;r&#10;Definition&#10;    __construct(PdfIndirectObject $page, PdfParser $parser)&#10;&#10;Description&#10;     Page constructor.&#10;&#10;Parameters:&#10;    PdfIndirectObject $page&#10;    PdfParser $parser;;d4,58;;b1,0;;mPdfIndirectObject $page;;pPdfParser $parser;;p">
+</treenode>
+<treenode node="getAttribute;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfReader\Page.php;f11;94;5;136;;;;vpos;;vPdfType;;r&#10;Definition&#10;    getAttribute($name, $inherited = true)&#10;&#10;Description&#10;     Get a page attribute.&#10;&#10;Parameters:&#10;    string $name&#10;    bool $inherited&#10;&#10;Return:&#10;   |null;;d4,95;;b1,0;;mstring $name;;pbool $inherited;;p">
+</treenode>
+<treenode node="getBoundary;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfReader\Page.php;f11;167;5;189;;;;vpos;;vbool;;r&#10;Definition&#10;    getBoundary($box = PageBoundaries::CROP_BOX, $fallback = true)&#10;&#10;Description&#10;     Get a boundary of this page.&#10;&#10;Parameters:&#10;    string $box&#10;    bool $fallback&#10;&#10;Return:&#10;   |Rectangle;;d4,168;;b1,0;;mstring $box;;pbool $fallback;;p">
+</treenode>
+<treenode node="getContentStream;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfReader\Page.php;f11;220;5;249;;;;vpos;;vstring;;r&#10;Definition&#10;    getContentStream()&#10;&#10;Description&#10;     Get the raw content stream.;;d4,221;;b1,0;;m">
+</treenode>
+<treenode node="getPageDictionary;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfReader\Page.php;f11;78;5;85;;;;vpos;;vPdfDictionary;;r&#10;Definition&#10;    getPageDictionary()&#10;&#10;Description&#10;     Get the dictionary of this page.;;d4,79;;b1,0;;m">
+</treenode>
+<treenode node="getPageObject;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfReader\Page.php;f11;68;5;71;;;;vpos;;vPdfIndirectObject;;r&#10;Definition&#10;    getPageObject()&#10;&#10;Description&#10;     Get the indirect object of this page.;;d4,69;;b1,0;;m">
+</treenode>
+<treenode node="getRotation;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfReader\Page.php;f11;143;5;157;;;;vpos;;vint;;r&#10;Definition&#10;    getRotation()&#10;&#10;Description&#10;     Get the rotation value.;;d4,144;;b1,0;;m">
+</treenode>
+<treenode node="getWidthAndHeight;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfReader\Page.php;f11;198;5;212;;;;vpos;;varray;;r&#10;Definition&#10;    getWidthAndHeight($box = PageBoundaries::CROP_BOX, $fallback = true)&#10;&#10;Description&#10;     Get the width and height of this page.&#10;&#10;Parameters:&#10;    string $box&#10;    bool $fallback&#10;&#10;Return:&#10;   |bool;;d4,199;;b1,0;;mstring $box;;pbool $fallback;;p">
+</treenode>
+</treenode>
+<treenode node="PageBoundaries;PHP:Class Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfReader\PageBoundaries.php;f9;17;1;95;;;;vpos;;v;;r&#10;Definition&#10;    class PageBoundaries&#10;&#10;Description&#10;     An abstract class for page boundary constants and some helper methods;;d0,18;;b0,0;;m">
+<treenode node="ART_BOX;PHP:PHP Word;C:\xampp2\htdocs\carimbador\FPDI\src\PdfReader\PageBoundaries.php;f9;70;17;70;;;;vposstring;;v;;r&apos;ArtBox&apos;;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="BLEED_BOX;PHP:PHP Word;C:\xampp2\htdocs\carimbador\FPDI\src\PdfReader\PageBoundaries.php;f9;49;19;49;;;;vposstring;;v;;r&apos;BleedBox&apos;;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="CROP_BOX;PHP:PHP Word;C:\xampp2\htdocs\carimbador\FPDI\src\PdfReader\PageBoundaries.php;f9;38;18;38;;;;vposstring;;v;;r&apos;CropBox&apos;;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="MEDIA_BOX;PHP:PHP Word;C:\xampp2\htdocs\carimbador\FPDI\src\PdfReader\PageBoundaries.php;f9;27;19;27;;;;vposstring;;v;;r&apos;MediaBox&apos;;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="TRIM_BOX;PHP:PHP Word;C:\xampp2\htdocs\carimbador\FPDI\src\PdfReader\PageBoundaries.php;f9;59;18;59;;;;vposstring;;v;;r&apos;TrimBox&apos;;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="isValidName;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfReader\PageBoundaries.php;f18;91;5;94;;;;vpos;;vboolean;;r&#10;Definition&#10;    isValidName($name)&#10;&#10;Description&#10;     Checks if a name is a valid page boundary name.&#10;&#10;Parameters:&#10;    string $name - The boundary name&#10;&#10;Return:&#10;   A boolean value whether the name is valid or not;;d4,92;;b1,5;;mstring $name;;p">
+</treenode>
+</treenode>
+<treenode node="PDF;PHP:Class Name;C:\xampp2\htdocs\carimbador\fpdf\tutorial\tuto6.php;f0;3;1;89;;C:\xampp2\htdocs\carimbador\fpdf\tutorial\tuto5.php;f0;3;1;86;;C:\xampp2\htdocs\carimbador\fpdf\tutorial\tuto4.php;f0;3;1;99;;C:\xampp2\htdocs\carimbador\fpdf\tutorial\tuto3.php;f0;3;1;71;;C:\xampp2\htdocs\carimbador\fpdf\tutorial\tuto2.php;f0;3;1;30;;C:\Users\diego.silva.PMPA\Desktop\baixarcoelha.php;f0;28;1;49;;;;vpos;;vFPDF;;c;;r;;d0,4;;b0,0;;m">
+<treenode node="AcceptPageBreak;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\tutorial\tuto4.php;f0;44;1;63;;;;vpos;;v;;r;;d0,45;;b0,0;;m">
+</treenode>
+<treenode node="BasicTable;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\tutorial\tuto5.php;f0;17;1;30;;;;vpos;;v;;r;;d0,18;;b0,0;;mheader;;pdata;;p">
+</treenode>
+<treenode node="ChapterBody;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\tutorial\tuto4.php;f0;76;1;90;;C:\xampp2\htdocs\carimbador\fpdf\tutorial\tuto3.php;f0;50;1;63;;;;vpos;;v;;r;;d0,77;;b0,0;;mfile;;p">
+</treenode>
+<treenode node="ChapterTitle;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\tutorial\tuto4.php;f0;65;1;74;;C:\xampp2\htdocs\carimbador\fpdf\tutorial\tuto3.php;f0;38;1;48;;;;vpos;;v;;r;;d0,66;;b0,0;;mnum;;plabel;;p">
+</treenode>
+<treenode node="CloseTag;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\tutorial\tuto6.php;f0;58;1;65;;;;vpos;;v;;r;;d0,59;;b0,0;;mtag;;p">
+</treenode>
+<treenode node="FancyTable;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\tutorial\tuto5.php;f0;55;1;85;;;;vpos;;v;;r;;d0,56;;b0,0;;mheader;;pdata;;p">
+</treenode>
+<treenode node="Footer;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\tutorial\tuto4.php;f0;26;1;33;;C:\xampp2\htdocs\carimbador\fpdf\tutorial\tuto3.php;f0;26;1;36;;C:\xampp2\htdocs\carimbador\fpdf\tutorial\tuto2.php;f0;21;1;29;;C:\Users\diego.silva.PMPA\Desktop\baixarcoelha.php;f4;47;24;47;;;;vpos;;v;;r;;d0,27;;b0,0;;m">
+</treenode>
+<treenode node="Header;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\tutorial\tuto4.php;f0;8;1;24;;C:\xampp2\htdocs\carimbador\fpdf\tutorial\tuto3.php;f0;5;1;24;;C:\xampp2\htdocs\carimbador\fpdf\tutorial\tuto2.php;f0;6;1;18;;C:\Users\diego.silva.PMPA\Desktop\baixarcoelha.php;f4;32;5;45;;;;vpos;;v;;r;;d0,9;;b0,0;;m">
+</treenode>
+<treenode node="ImprovedTable;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\tutorial\tuto5.php;f0;33;1;52;;;;vpos;;v;;r;;d0,34;;b0,0;;mheader;;pdata;;p">
+</treenode>
+<treenode node="LoadData;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\tutorial\tuto5.php;f0;6;1;14;;;;vpos;;v;;r;;d0,7;;b0,0;;mfile;;p">
+</treenode>
+<treenode node="OpenTag;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\tutorial\tuto6.php;f0;47;1;56;;;;vpos;;v;;r;;d0,48;;b0,0;;mtag;;pattr;;p">
+</treenode>
+<treenode node="PrintChapter;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\tutorial\tuto4.php;f0;92;1;98;;C:\xampp2\htdocs\carimbador\fpdf\tutorial\tuto3.php;f0;65;1;70;;;;vpos;;v;;r;;d0,93;;b0,0;;mnum;;ptitle;;pfile;;p">
+</treenode>
+<treenode node="PutLink;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\tutorial\tuto6.php;f0;80;1;88;;;;vpos;;v;;r;;d0,81;;b0,0;;mURL;;ptxt;;p">
+</treenode>
+<treenode node="SetCol;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\tutorial\tuto4.php;f0;35;1;42;;;;vpos;;v;;r;;d0,36;;b0,0;;mcol;;p">
+</treenode>
+<treenode node="SetStyle;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\tutorial\tuto6.php;f0;67;1;78;;;;vpos;;v;;r;;d0,68;;b0,0;;mtag;;penable;;p">
+</treenode>
+<treenode node="WriteHTML;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\tutorial\tuto6.php;f0;10;1;45;;;;vpos;;v;;r;;d0,11;;b0,0;;mhtml;;p">
+</treenode>
+</treenode>
+<treenode node="PdfArray;PHP:Class Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Type\PdfArray.php;f0;21;1;84;;;;vpos;;vPdfType;;c;;r&#10;Definition&#10;    class PdfArray extends PdfType&#10;&#10;Description&#10;     Class representing a PDF array object;;d0,22;;b0,0;;m">
+<treenode node="create;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Type\PdfArray.php;f18;55;5;61;;;;vpos;;vself;;r&#10;Definition&#10;    create(array $values = [])&#10;&#10;Description&#10;     Helper method to create an instance.&#10;&#10;Parameters:&#10;    PdfType[] $values;;d4,56;;b1,5;;mPdfType[] $values;;p">
+</treenode>
+<treenode node="ensure;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Type\PdfArray.php;f18;71;5;83;;;;vpos;;vself;;r&#10;Definition&#10;    ensure($array, $size = null)&#10;&#10;Description&#10;     Ensures that the passed array is a PdfArray instance with a (optional) specific size.&#10;&#10;Parameters:&#10;    mixed $array&#10;    null|int $size;;d4,72;;b1,5;;mmixed $array;;pnull|int $size;;p">
+</treenode>
+<treenode node="parse;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Type\PdfArray.php;f18;30;5;47;;;;vpos;;vbool;;r&#10;Definition&#10;    parse(Tokenizer $tokenizer, PdfParser $parser)&#10;&#10;Description&#10;     Parses an array of the passed tokenizer and parser.&#10;&#10;Parameters:&#10;    Tokenizer $tokenizer&#10;    PdfParser $parser&#10;&#10;Return:&#10;   |self;;d4,31;;b1,5;;mTokenizer $tokenizer;;pPdfParser $parser;;p">
+</treenode>
+</treenode>
+<treenode node="PdfBoolean;PHP:Class Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Type\PdfBoolean.php;f0;17;1;42;;;;vpos;;vPdfType;;c;;r&#10;Definition&#10;    class PdfBoolean extends PdfType&#10;&#10;Description&#10;     Class representing a boolean PDF object;;d0,18;;b0,0;;m">
+<treenode node="create;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Type\PdfBoolean.php;f18;25;5;30;;;;vpos;;vself;;r&#10;Definition&#10;    create($value)&#10;&#10;Description&#10;     Helper method to create an instance.&#10;&#10;Parameters:&#10;    bool $value;;d4,26;;b1,5;;mbool $value;;p">
+</treenode>
+<treenode node="ensure;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Type\PdfBoolean.php;f18;38;5;41;;;;vpos;;vself;;r&#10;Definition&#10;    ensure($value)&#10;&#10;Description&#10;     Ensures that the passed value is a PdfBoolean instance.&#10;&#10;Parameters:&#10;    mixed $value;;d4,39;;b1,5;;mmixed $value;;p">
+</treenode>
+</treenode>
+<treenode node="PdfDictionary;PHP:Class Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Type\PdfDictionary.php;f0;21;1;132;;;;vpos;;vPdfType;;c;;r&#10;Definition&#10;    class PdfDictionary extends PdfType&#10;&#10;Description&#10;     Class representing a PDF dictionary object;;d0,22;;b0,0;;m">
+<treenode node="create;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Type\PdfDictionary.php;f18;93;5;99;;;;vpos;;vself;;r&#10;Definition&#10;    create(array $entries = [])&#10;&#10;Description&#10;     Helper method to create an instance.&#10;&#10;Parameters:&#10;    PdfType[] $entries - The keys are the name entries of the dictionary;;d4,94;;b1,5;;mPdfType[] $entries;;p">
+</treenode>
+<treenode node="ensure;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Type\PdfDictionary.php;f18;128;5;131;;;;vpos;;vself;;r&#10;Definition&#10;    ensure($dictionary)&#10;&#10;Description&#10;     Ensures that the passed value is a PdfDictionary instance.&#10;&#10;Parameters:&#10;    mixed $dictionary;;d4,129;;b1,5;;mmixed $dictionary;;p">
+</treenode>
+<treenode node="get;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Type\PdfDictionary.php;f18;109;5;120;;;;vpos;;vPdfNull;;r&#10;Definition&#10;    get($dictionary, $key, PdfType $default = null)&#10;&#10;Description&#10;     Get a value by its key from a dictionary or a default value.&#10;&#10;Parameters:&#10;    mixed $dictionary&#10;    string $key&#10;    PdfType|mixed|null $default&#10;&#10;Return:&#10;   |PdfType;;d4,110;;b1,5;;mmixed $dictionary;;pstring $key;;pPdfType|mixed|null $default;;p">
+</treenode>
+<treenode node="parse;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Type\PdfDictionary.php;f18;31;5;85;;;;vpos;;vbool;;r&#10;Definition&#10;    parse(Tokenizer $tokenizer, StreamReader $streamReader, PdfParser $parser)&#10;&#10;Description&#10;     Parses a dictionary of the passed tokenizer, stream-reader and parser.&#10;&#10;Parameters:&#10;    Tokenizer $tokenizer&#10;    StreamReader $streamReader&#10;    PdfParser $parser&#10;&#10;Return:&#10;   |self;;d4,32;;b1,5;;mTokenizer $tokenizer;;pStreamReader $streamReader;;pPdfParser $parser;;p">
+</treenode>
+</treenode>
+<treenode node="PdfHexString;PHP:Class Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Type\PdfHexString.php;f0;19;1;81;;;;vpos;;vPdfType;;c;;r&#10;Definition&#10;    class PdfHexString extends PdfType&#10;&#10;Description&#10;     Class representing a hexadecimal encoded PDF string object;;d0,20;;b0,0;;m">
+<treenode node="create;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Type\PdfHexString.php;f18;63;5;69;;;;vpos;;vself;;r&#10;Definition&#10;    create($string)&#10;&#10;Description&#10;     Helper method to create an instance.&#10;&#10;Parameters:&#10;    string $string - The hex encoded string;;d4,64;;b1,5;;mstring $string;;p">
+</treenode>
+<treenode node="ensure;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Type\PdfHexString.php;f18;77;5;80;;;;vpos;;vself;;r&#10;Definition&#10;    ensure($hexString)&#10;&#10;Description&#10;     Ensures that the passed value is a PdfHexString instance.&#10;&#10;Parameters:&#10;    mixed $hexString;;d4,78;;b1,5;;mmixed $hexString;;p">
+</treenode>
+<treenode node="parse;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Type\PdfHexString.php;f18;27;5;55;;;;vpos;;vbool;;r&#10;Definition&#10;    parse(StreamReader $streamReader)&#10;&#10;Description&#10;     Parses a hexadecimal string object from the stream reader.&#10;&#10;Parameters:&#10;    StreamReader $streamReader&#10;&#10;Return:&#10;   |self;;d4,28;;b1,5;;mStreamReader $streamReader;;p">
+</treenode>
+</treenode>
+<treenode node="PdfIndirectObject;PHP:Class Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Type\PdfIndirectObject.php;f0;21;1;102;;;;vpos;;vPdfType;;c;;r&#10;Definition&#10;    class PdfIndirectObject extends PdfType&#10;&#10;Description&#10;     Class representing an indirect object;;d0,22;;b0,0;;m">
+<treenode node="create;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Type\PdfIndirectObject.php;f18;68;5;76;;;;vpos;;vself;;r&#10;Definition&#10;    create($objectNumber, $generationNumber, PdfType $value)&#10;&#10;Description&#10;     Helper method to create an instance.&#10;&#10;Parameters:&#10;    int $objectNumber&#10;    int $generationNumber&#10;    PdfType $value;;d4,69;;b1,5;;mint $objectNumber;;pint $generationNumber;;pPdfType $value;;p">
+</treenode>
+<treenode node="ensure;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Type\PdfIndirectObject.php;f18;84;5;87;;;;vpos;;vself;;r&#10;Definition&#10;    ensure($indirectObject)&#10;&#10;Description&#10;     Ensures that the passed value is a PdfIndirectObject instance.&#10;&#10;Parameters:&#10;    mixed $indirectObject;;d4,85;;b1,5;;mmixed $indirectObject;;p">
+</treenode>
+<treenode node="parse;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Type\PdfIndirectObject.php;f18;33;5;58;;;;vpos;;vbool;;r&#10;Definition&#10;    parse(&#10;        $objectNumberToken,&#10;        $objectGenerationNumberToken,&#10;        PdfParser $parser,&#10;        Tokenizer $tokenizer,&#10;        StreamReader $reader&#10;    )&#10;&#10;Description&#10;     Parses an indirect object from a tokenizer, parser and stream-reader.&#10;&#10;Parameters:&#10;    int $objectNumberToken&#10;    int $objectGenerationNumberToken&#10;    PdfParser $parser&#10;    Tokenizer $tokenizer&#10;    StreamReader $reader&#10;&#10;Return:&#10;   |self;;d6,39;;b1,5;;mint $objectNumberToken;;pint $objectGenerationNumberToken;;pPdfParser $parser;;pTokenizer $tokenizer;;pStreamReader $reader;;p">
+</treenode>
+</treenode>
+<treenode node="PdfIndirectObjectReference;PHP:Class Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Type\PdfIndirectObjectReference.php;f0;17;1;52;;;;vpos;;vPdfType;;c;;r&#10;Definition&#10;    class PdfIndirectObjectReference extends PdfType&#10;&#10;Description&#10;     Class representing an indirect object reference;;d0,18;;b0,0;;m">
+<treenode node="create;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Type\PdfIndirectObjectReference.php;f18;26;5;33;;;;vpos;;vself;;r&#10;Definition&#10;    create($objectNumber, $generationNumber)&#10;&#10;Description&#10;     Helper method to create an instance.&#10;&#10;Parameters:&#10;    int $objectNumber&#10;    int $generationNumber;;d4,27;;b1,5;;mint $objectNumber;;pint $generationNumber;;p">
+</treenode>
+<treenode node="ensure;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Type\PdfIndirectObjectReference.php;f18;41;5;44;;;;vpos;;vself;;r&#10;Definition&#10;    ensure($value)&#10;&#10;Description&#10;     Ensures that the passed value is a PdfIndirectObject instance.&#10;&#10;Parameters:&#10;    mixed $value;;d4,42;;b1,5;;mmixed $value;;p">
+</treenode>
+</treenode>
+<treenode node="PdfName;PHP:Class Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Type\PdfName.php;f0;20;1;81;;;;vpos;;vPdfType;;c;;r&#10;Definition&#10;    class PdfName extends PdfType&#10;&#10;Description&#10;     Class representing a PDF name object;;d0,21;;b0,0;;m">
+<treenode node="create;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Type\PdfName.php;f18;63;5;69;;;;vpos;;vself;;r&#10;Definition&#10;    create($string)&#10;&#10;Description&#10;     Helper method to create an instance.&#10;&#10;Parameters:&#10;    string $string;;d4,64;;b1,5;;mstring $string;;p">
+</treenode>
+<treenode node="ensure;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Type\PdfName.php;f18;77;5;80;;;;vpos;;vself;;r&#10;Definition&#10;    ensure($name)&#10;&#10;Description&#10;     Ensures that the passed value is a PdfName instance.&#10;&#10;Parameters:&#10;    mixed $name;;d4,78;;b1,5;;mmixed $name;;p">
+</treenode>
+<treenode node="parse;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Type\PdfName.php;f18;29;5;39;;;;vpos;;vself;;r&#10;Definition&#10;    parse(Tokenizer $tokenizer, StreamReader $streamReader)&#10;&#10;Description&#10;     Parses a name object from the passed tokenizer and stream-reader.&#10;&#10;Parameters:&#10;    Tokenizer $tokenizer&#10;    StreamReader $streamReader;;d4,30;;b1,5;;mTokenizer $tokenizer;;pStreamReader $streamReader;;p">
+</treenode>
+<treenode node="unescape;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Type\PdfName.php;f18;47;5;55;;;;vpos;;vstring;;r&#10;Definition&#10;    unescape($value)&#10;&#10;Description&#10;     Unescapes a name string.&#10;&#10;Parameters:&#10;    string $value;;d4,48;;b1,5;;mstring $value;;p">
+</treenode>
+</treenode>
+<treenode node="PdfNull;PHP:Class Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Type\PdfNull.php;f0;17;1;20;;;;vpos;;vPdfType;;c;;r&#10;Definition&#10;    class PdfNull extends PdfType&#10;&#10;Description&#10;     Class representing a PDF null object;;d0,18;;b0,0;;m">
+</treenode>
+<treenode node="PdfNumeric;PHP:Class Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Type\PdfNumeric.php;f0;17;1;43;;;;vpos;;vPdfType;;c;;r&#10;Definition&#10;    class PdfNumeric extends PdfType&#10;&#10;Description&#10;     Class representing a numeric PDF object;;d0,18;;b0,0;;m">
+<treenode node="create;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Type\PdfNumeric.php;f18;25;5;31;;;;vpos;;vPdfNumeric;;r&#10;Definition&#10;    create($value)&#10;&#10;Description&#10;     Helper method to create an instance.&#10;&#10;Parameters:&#10;    int|float $value;;d4,26;;b1,5;;mint|float $value;;p">
+</treenode>
+<treenode node="ensure;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Type\PdfNumeric.php;f18;39;5;42;;;;vpos;;vself;;r&#10;Definition&#10;    ensure($value)&#10;&#10;Description&#10;     Ensures that the passed value is a PdfNumeric instance.&#10;&#10;Parameters:&#10;    mixed $value;;d4,40;;b1,5;;mmixed $value;;p">
+</treenode>
+</treenode>
+<treenode node="PdfParser;PHP:Class Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\PdfParser.php;f0;31;1;304;;;;vpos;;v;;r&#10;Definition&#10;    class PdfParser&#10;&#10;Description&#10;     A PDF parser class;;d0,32;;b0,0;;m">
+<treenode node="__construct;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\PdfParser.php;f11;74;5;78;;;;vpos;;v;;r&#10;Definition&#10;    __construct(StreamReader $streamReader)&#10;&#10;Description&#10;     PdfParser constructor.&#10;&#10;Parameters:&#10;    StreamReader $streamReader;;d4,75;;b1,0;;mStreamReader $streamReader;;p">
+</treenode>
+<treenode node="cleanUp;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\PdfParser.php;f11;85;5;88;;;;vpos;;v;;r&#10;Definition&#10;    cleanUp()&#10;&#10;Description&#10;     Removes cycled references.;;d4,86;;b1,0;;m">
+</treenode>
+<treenode node="getCatalog;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\PdfParser.php;f11;194;5;202;;;;vpos;;vPdfDictionary;;r&#10;Definition&#10;    getCatalog()&#10;&#10;Description&#10;     Get the catalog dictionary.;;d4,195;;b1,0;;m">
+</treenode>
+<treenode node="getCrossReference;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\PdfParser.php;f11;151;5;158;;;;vpos;;vCrossReference;;r&#10;Definition&#10;    getCrossReference()&#10;&#10;Description&#10;     Get the cross reference instance.;;d4,152;;b1,0;;m">
+</treenode>
+<treenode node="getIndirectObject;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\PdfParser.php;f11;211;5;226;;;;vpos;;vPdfIndirectObject;;r&#10;Definition&#10;    getIndirectObject($objectNumber, $cache = false)&#10;&#10;Description&#10;     Get an indirect object by its object number.&#10;&#10;Parameters:&#10;    int $objectNumber&#10;    bool $cache;;d4,212;;b1,0;;mint $objectNumber;;pbool $cache;;p">
+</treenode>
+<treenode node="getPdfVersion;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\PdfParser.php;f11;166;5;187;;;;vpos;;vint;;r&#10;Definition&#10;    getPdfVersion()&#10;&#10;Description&#10;     Get the PDF version.&#10;&#10;Return:&#10;   [] An array of major and minor version;;d4,167;;b1,0;;m">
+</treenode>
+<treenode node="getStreamReader;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\PdfParser.php;f11;95;5;98;;;;vpos;;vStreamReader;;r&#10;Definition&#10;    getStreamReader()&#10;&#10;Description&#10;     Get the stream reader instance.;;d4,96;;b1,0;;m">
+</treenode>
+<treenode node="getTokenizer;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\PdfParser.php;f11;105;5;108;;;;vpos;;vTokenizer;;r&#10;Definition&#10;    getTokenizer()&#10;&#10;Description&#10;     Get the tokenizer instance.;;d4,106;;b1,0;;m">
+</treenode>
+<treenode node="readValue;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\PdfParser.php;f11;234;5;303;;;;vpos;;vbool;;r&#10;Definition&#10;    readValue($token = null)&#10;&#10;Description&#10;     Read a PDF value.&#10;&#10;Parameters:&#10;    null|bool|string $token&#10;&#10;Return:&#10;   |PdfArray|PdfBoolean|PdfHexString|PdfName|PdfNull|PdfNumeric|PdfString|PdfToken|PdfIndirectObjectReference;;d4,235;;b1,0;;mnull|bool|string $token;;p">
+</treenode>
+<treenode node="resolveFileHeader;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\PdfParser.php;f14;115;5;144;;;;vpos;;v;;r&#10;Definition&#10;    resolveFileHeader()&#10;&#10;Description&#10;     Resolves the file header.;;d4,116;;b2,0;;m">
+</treenode>
+</treenode>
+<treenode node="PdfParserException;PHP:Class Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\PdfParserException.php;f0;19;1;50;;;;vpos;;vFpdiException;;c;;r&#10;Definition&#10;    class PdfParserException extends FpdiException&#10;&#10;Description&#10;     Exception for the pdf parser class;;d0,20;;b0,0;;m">
+<treenode node="FILE_HEADER_NOT_FOUND;PHP:PHP Word;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\PdfParserException.php;f9;39;31;39;;;;vposint;;v;;r0x0004;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="IMPLEMENTED_IN_FPDI_PDF_PARSER;PHP:PHP Word;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\PdfParserException.php;f9;29;40;29;;;;vposint;;v;;r0x0002;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="INVALID_DATA_SIZE;PHP:PHP Word;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\PdfParserException.php;f9;49;27;49;;;;vposint;;v;;r0x0006;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="INVALID_DATA_TYPE;PHP:PHP Word;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\PdfParserException.php;f9;34;27;34;;;;vposint;;v;;r0x0003;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="NOT_IMPLEMENTED;PHP:PHP Word;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\PdfParserException.php;f9;24;25;24;;;;vposint;;v;;r0x0001;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="PDF_VERSION_NOT_FOUND;PHP:PHP Word;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\PdfParserException.php;f9;44;31;44;;;;vposint;;v;;r0x0005;;d-1,-1;;b0,0;;m">
+</treenode>
+</treenode>
+<treenode node="PdfReader;PHP:Class Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfReader\PdfReader.php;f0;24;1;206;;;;vpos;;v;;r&#10;Definition&#10;    class PdfReader&#10;&#10;Description&#10;     A PDF reader class;;d0,25;;b0,0;;m">
+<treenode node="__construct;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfReader\PdfReader.php;f11;48;5;51;;;;vpos;;v;;r&#10;Definition&#10;    __construct(PdfParser $parser)&#10;&#10;Description&#10;     PdfReader constructor.&#10;&#10;Parameters:&#10;    PdfParser $parser;;d4,49;;b1,0;;mPdfParser $parser;;p">
+</treenode>
+<treenode node="__destruct;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfReader\PdfReader.php;f11;56;5;62;;;;vpos;;v;;r&#10;Definition&#10;    __destruct()&#10;&#10;Description&#10;     PdfReader destructor.;;d4,57;;b1,0;;m">
+</treenode>
+<treenode node="getPage;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfReader\PdfReader.php;f11;109;5;166;;;;vpos;;vPage;;r&#10;Definition&#10;    getPage($pageNumber)&#10;&#10;Description&#10;     Get a page instance.&#10;&#10;Parameters:&#10;    int $pageNumber;;d4,110;;b1,0;;mint $pageNumber;;p">
+</treenode>
+<treenode node="getPageCount;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfReader\PdfReader.php;f11;89;5;101;;;;vpos;;vint;;r&#10;Definition&#10;    getPageCount()&#10;&#10;Description&#10;     Get the page count.;;d4,90;;b1,0;;m">
+</treenode>
+<treenode node="getParser;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfReader\PdfReader.php;f11;69;5;72;;;;vpos;;vPdfParser;;r&#10;Definition&#10;    getParser()&#10;&#10;Description&#10;     Get the pdf parser instance.;;d4,70;;b1,0;;m">
+</treenode>
+<treenode node="getPdfVersion;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfReader\PdfReader.php;f11;79;5;82;;;;vpos;;vstring;;r&#10;Definition&#10;    getPdfVersion()&#10;&#10;Description&#10;     Get the PDF version.;;d4,80;;b1,0;;m">
+</treenode>
+<treenode node="readPages;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfReader\PdfReader.php;f14;171;5;205;;;;vpos;;v;;r&#10;Definition&#10;    readPages()&#10;&#10;Description&#10;     Walk the page tree and resolve all indirect objects of all pages.;;d4,172;;b2,0;;m">
+</treenode>
+</treenode>
+<treenode node="PdfReaderException;PHP:Class Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfReader\PdfReaderException.php;f0;19;1;35;;;;vpos;;vFpdiException;;c;;r&#10;Definition&#10;    class PdfReaderException extends FpdiException&#10;&#10;Description&#10;     Exception for the pdf reader class;;d0,20;;b0,0;;m">
+<treenode node="KIDS_EMPTY;PHP:PHP Word;C:\xampp2\htdocs\carimbador\FPDI\src\PdfReader\PdfReaderException.php;f9;24;20;24;;;;vposint;;v;;r0x0101;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="MISSING_DATA;PHP:PHP Word;C:\xampp2\htdocs\carimbador\FPDI\src\PdfReader\PdfReaderException.php;f9;34;22;34;;;;vposint;;v;;r0x0103;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="UNEXPECTED_DATA_TYPE;PHP:PHP Word;C:\xampp2\htdocs\carimbador\FPDI\src\PdfReader\PdfReaderException.php;f9;29;30;29;;;;vposint;;v;;r0x0102;;d-1,-1;;b0,0;;m">
+</treenode>
+</treenode>
+<treenode node="PdfStream;PHP:Class Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Type\PdfStream.php;f0;26;1;274;;;;vpos;;vPdfType;;c;;r&#10;Definition&#10;    class PdfStream extends PdfType&#10;&#10;Description&#10;     Class representing a PDF stream object;;d0,27;;b0,0;;m">
+<treenode node="create;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Type\PdfStream.php;f18;83;5;90;;;;vpos;;vself;;r&#10;Definition&#10;    create(PdfDictionary $dictionary, $stream)&#10;&#10;Description&#10;     Helper method to create an instance.&#10;&#10;Parameters:&#10;    PdfDictionary $dictionary&#10;    string $stream;;d4,84;;b1,5;;mPdfDictionary $dictionary;;pstring $stream;;p">
+</treenode>
+<treenode node="ensure;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Type\PdfStream.php;f18;98;5;101;;;;vpos;;vself;;r&#10;Definition&#10;    ensure($stream)&#10;&#10;Description&#10;     Ensures that the passed value is a PdfStream instance.&#10;&#10;Parameters:&#10;    mixed $stream;;d4,99;;b1,5;;mmixed $stream;;p">
+</treenode>
+<treenode node="getStream;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Type\PdfStream.php;f11;123;5;166;;;;vpos;;vbool;;r&#10;Definition&#10;    getStream($cache = false)&#10;&#10;Description&#10;     Get the stream data.&#10;&#10;Parameters:&#10;    bool $cache - Whether cache the stream data or not&#10;&#10;Return:&#10;   |string;;d4,124;;b1,0;;mbool $cache;;p">
+</treenode>
+<treenode node="getUnfilteredStream;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Type\PdfStream.php;f11;175;5;273;;;;vpos;;vstring;;r&#10;Definition&#10;    getUnfilteredStream()&#10;&#10;Description&#10;     Get the unfiltered stream data.;;d4,176;;b1,0;;m">
+</treenode>
+<treenode node="parse;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Type\PdfStream.php;f18;36;5;74;;;;vpos;;vself;;r&#10;Definition&#10;    parse(PdfDictionary $dictionary, StreamReader $reader)&#10;&#10;Description&#10;     Parses a stream from a stream reader.&#10;&#10;Parameters:&#10;    PdfDictionary $dictionary&#10;    StreamReader $reader;;d4,37;;b1,5;;mPdfDictionary $dictionary;;pStreamReader $reader;;p">
+</treenode>
+</treenode>
+<treenode node="PdfString;PHP:Class Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Type\PdfString.php;f0;19;1;171;;;;vpos;;vPdfType;;c;;r&#10;Definition&#10;    class PdfString extends PdfType&#10;&#10;Description&#10;     Class representing a PDF string object;;d0,20;;b0,0;;m">
+<treenode node="create;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Type\PdfString.php;f18;62;5;68;;;;vpos;;vself;;r&#10;Definition&#10;    create($value)&#10;&#10;Description&#10;     Helper method to create an instance.&#10;&#10;Parameters:&#10;    string $value - The string needs to be escaped accordingly;;d4,63;;b1,5;;mstring $value;;p">
+</treenode>
+<treenode node="ensure;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Type\PdfString.php;f18;76;5;79;;;;vpos;;vself;;r&#10;Definition&#10;    ensure($string)&#10;&#10;Description&#10;     Ensures that the passed value is a PdfString instance.&#10;&#10;Parameters:&#10;    mixed $string;;d4,77;;b1,5;;mmixed $string;;p">
+</treenode>
+<treenode node="parse;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Type\PdfString.php;f18;27;5;54;;;;vpos;;vself;;r&#10;Definition&#10;    parse(StreamReader $streamReader)&#10;&#10;Description&#10;     Parses a string object from the stream reader.&#10;&#10;Parameters:&#10;    StreamReader $streamReader;;d4,28;;b1,5;;mStreamReader $streamReader;;p">
+</treenode>
+<treenode node="unescape;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Type\PdfString.php;f18;87;5;170;;;;vpos;;vstring;;r&#10;Definition&#10;    unescape($s)&#10;&#10;Description&#10;     Unescapes escaped sequences in a PDF string according to the PDF specification.&#10;&#10;Parameters:&#10;    string $s;;d4,88;;b1,5;;mstring $s;;p">
+</treenode>
+</treenode>
+<treenode node="PdfToken;PHP:Class Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Type\PdfToken.php;f0;17;1;43;;;;vpos;;vPdfType;;c;;r&#10;Definition&#10;    class PdfToken extends PdfType&#10;&#10;Description&#10;     Class representing PDF token object;;d0,18;;b0,0;;m">
+<treenode node="create;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Type\PdfToken.php;f18;25;5;31;;;;vpos;;vself;;r&#10;Definition&#10;    create($token)&#10;&#10;Description&#10;     Helper method to create an instance.&#10;&#10;Parameters:&#10;    string $token;;d4,26;;b1,5;;mstring $token;;p">
+</treenode>
+<treenode node="ensure;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Type\PdfToken.php;f18;39;5;42;;;;vpos;;vself;;r&#10;Definition&#10;    ensure($token)&#10;&#10;Description&#10;     Ensures that the passed value is a PdfToken instance.&#10;&#10;Parameters:&#10;    mixed $token;;d4,40;;b1,5;;mmixed $token;;p">
+</treenode>
+</treenode>
+<treenode node="PdfType;PHP:Class Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Type\PdfType.php;f0;19;1;75;;;;vpos;;v;;r&#10;Definition&#10;    class PdfType&#10;&#10;Description&#10;     A class defining a PDF data type;;d0,20;;b0,0;;m">
+<treenode node="ensureType;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Type\PdfType.php;f21;57;5;67;;;;vpos;;vmixed;;r&#10;Definition&#10;    ensureType($type, $value, $errorMessage)&#10;&#10;Description&#10;     Ensure that a value is an instance of a specific PDF type.&#10;&#10;Parameters:&#10;    string $type&#10;    PdfType $value&#10;    string $errorMessage;;d4,58;;b2,5;;mstring $type;;pPdfType $value;;pstring $errorMessage;;p">
+</treenode>
+<treenode node="resolve;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Type\PdfType.php;f18;31;5;46;;;;vpos;;vPdfType;;r&#10;Definition&#10;    resolve(PdfType $value, PdfParser $parser, $stopAtIndirectObject = false)&#10;&#10;Description&#10;     Resolves a PdfType value to its value.&#10;&#10;Parameters:&#10;    PdfType $value&#10;    PdfParser $parser&#10;    bool $stopAtIndirectObject;;d4,32;;b1,5;;mPdfType $value;;pPdfParser $parser;;pbool $stopAtIndirectObject;;p">
+</treenode>
+</treenode>
+<treenode node="PdfTypeException;PHP:Class Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Type\PdfTypeException.php;f0;19;1;25;;;;vpos;;vPdfParserException;;c;;r&#10;Definition&#10;    class PdfTypeException extends PdfParserException&#10;&#10;Description&#10;     Exception class for pdf type classes;;d0,20;;b0,0;;m">
+<treenode node="NO_NEWLINE_AFTER_STREAM_KEYWORD;PHP:PHP Word;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Type\PdfTypeException.php;f9;24;41;24;;;;vposint;;v;;r0x0601;;d-1,-1;;b0,0;;m">
+</treenode>
+</treenode>
+<treenode node="Rectangle;PHP:Class Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfReader\DataStructure\Rectangle.php;f0;22;1;168;;;;vpos;;v;;r&#10;Definition&#10;    class Rectangle&#10;&#10;Description&#10;     Class representing a rectangle;;d0,23;;b0,0;;m">
+<treenode node="__construct;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfReader\DataStructure\Rectangle.php;f11;70;5;76;;;;vpos;;v;;r&#10;Definition&#10;    __construct($ax, $ay, $bx, $by)&#10;&#10;Description&#10;     Rectangle constructor.&#10;&#10;Parameters:&#10;    float|int $ax&#10;    float|int $ay&#10;    float|int $bx&#10;    float|int $by;;d4,71;;b1,0;;mfloat|int $ax;;pfloat|int $ay;;pfloat|int $bx;;pfloat|int $by;;p">
+</treenode>
+<treenode node="byPdfArray;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfReader\DataStructure\Rectangle.php;f18;51;5;60;;;;vpos;;vRectangle;;r&#10;Definition&#10;    byPdfArray($array, PdfParser $parser)&#10;&#10;Description&#10;     Create a rectangle instance by a PdfArray.&#10;&#10;Parameters:&#10;    PdfArray|mixed $array&#10;    PdfParser $parser;;d4,52;;b1,5;;mPdfArray|mixed $array;;pPdfParser $parser;;p">
+</treenode>
+<treenode node="getHeight;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfReader\DataStructure\Rectangle.php;f11;93;5;96;;;;vpos;;vfloat;;r&#10;Definition&#10;    getHeight()&#10;&#10;Description&#10;     Get the height of the rectangle.&#10;&#10;Return:&#10;   |int;;d4,94;;b1,0;;m">
+</treenode>
+<treenode node="getLlx;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfReader\DataStructure\Rectangle.php;f11;103;5;106;;;;vpos;;vfloat;;r&#10;Definition&#10;    getLlx()&#10;&#10;Description&#10;     Get the lower left abscissa.&#10;&#10;Return:&#10;   |int;;d4,104;;b1,0;;m">
+</treenode>
+<treenode node="getLly;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfReader\DataStructure\Rectangle.php;f11;113;5;116;;;;vpos;;vfloat;;r&#10;Definition&#10;    getLly()&#10;&#10;Description&#10;     Get the lower left ordinate.&#10;&#10;Return:&#10;   |int;;d4,114;;b1,0;;m">
+</treenode>
+<treenode node="getUrx;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfReader\DataStructure\Rectangle.php;f11;123;5;126;;;;vpos;;vfloat;;r&#10;Definition&#10;    getUrx()&#10;&#10;Description&#10;     Get the upper right abscissa.&#10;&#10;Return:&#10;   |int;;d4,124;;b1,0;;m">
+</treenode>
+<treenode node="getUry;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfReader\DataStructure\Rectangle.php;f11;133;5;136;;;;vpos;;vfloat;;r&#10;Definition&#10;    getUry()&#10;&#10;Description&#10;     Get the upper right ordinate.&#10;&#10;Return:&#10;   |int;;d4,134;;b1,0;;m">
+</treenode>
+<treenode node="getWidth;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfReader\DataStructure\Rectangle.php;f11;83;5;86;;;;vpos;;vfloat;;r&#10;Definition&#10;    getWidth()&#10;&#10;Description&#10;     Get the width of the rectangle.&#10;&#10;Return:&#10;   |int;;d4,84;;b1,0;;m">
+</treenode>
+<treenode node="toArray;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfReader\DataStructure\Rectangle.php;f11;143;5;151;;;;vpos;;varray;;r&#10;Definition&#10;    toArray()&#10;&#10;Description&#10;     Get the rectangle as an array.;;d4,144;;b1,0;;m">
+</treenode>
+<treenode node="toPdfArray;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfReader\DataStructure\Rectangle.php;f11;158;5;167;;;;vpos;;vPdfArray;;r&#10;Definition&#10;    toPdfArray()&#10;&#10;Description&#10;     Get the rectangle as a PdfArray.;;d4,159;;b1,0;;m">
+</treenode>
+</treenode>
+<treenode node="StreamReader;PHP:Class Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\StreamReader.php;f0;17;1;460;;;;vpos;;v;;r&#10;Definition&#10;    class StreamReader&#10;&#10;Description&#10;     A stream reader class;;d0,18;;b0,0;;m">
+<treenode node="__construct;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\StreamReader.php;f11;102;5;120;;;;vpos;;v;;r&#10;Definition&#10;    __construct($stream, $closeStream = false)&#10;&#10;Description&#10;     StreamReader constructor.&#10;&#10;Parameters:&#10;    resource $stream&#10;    bool $closeStream - Defines whether to close the stream resource if the instance is destructed or not;;d4,103;;b1,0;;mresource $stream;;pbool $closeStream;;p">
+</treenode>
+<treenode node="__destruct;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\StreamReader.php;f11;125;5;130;;;;vpos;;v;;r&#10;Definition&#10;    __destruct()&#10;&#10;Description&#10;     The destructor.;;d4,126;;b1,0;;m">
+</treenode>
+<treenode node="addOffset;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\StreamReader.php;f11;337;5;340;;;;vpos;;v;;r&#10;Definition&#10;    addOffset($offset)&#10;&#10;Description&#10;     Add an offset to the current offset.&#10;&#10;Parameters:&#10;    int $offset;;d4,338;;b1,0;;mint $offset;;p">
+</treenode>
+<treenode node="createByFile;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\StreamReader.php;f18;41;5;45;;;;vpos;;vStreamReader;;r&#10;Definition&#10;    createByFile($filename)&#10;&#10;Description&#10;     Creates a stream reader instance by a filename.&#10;&#10;Parameters:&#10;    string $filename;;d4,42;;b1,5;;mstring $filename;;p">
+</treenode>
+<treenode node="createByString;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\StreamReader.php;f18;26;5;33;;;;vpos;;vStreamReader;;r&#10;Definition&#10;    createByString($content, $maxMemory = 2097152)&#10;&#10;Description&#10;     Creates a stream reader instance by a string value.&#10;&#10;Parameters:&#10;    string $content&#10;    int $maxMemory;;d4,27;;b1,5;;mstring $content;;pint $maxMemory;;p">
+</treenode>
+<treenode node="ensure;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\StreamReader.php;f11;426;5;436;;;;vpos;;v;;r&#10;Definition&#10;    ensure($pos, $length)&#10;&#10;Description&#10;     Ensures bytes in the buffer with a specific length and location in the file.&#10;&#10;Parameters:&#10;    int $pos&#10;    int $length;;d4,427;;b1,0;;mint $pos;;pint $length;;p">
+</treenode>
+<treenode node="ensureContent;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\StreamReader.php;f11;347;5;355;;;;vpos;;vbool;;r&#10;Definition&#10;    ensureContent()&#10;&#10;Description&#10;     Make sure that there is at least one character beyond the current offset in the buffer.;;d4,348;;b1,0;;m">
+</treenode>
+<treenode node="getBuffer;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\StreamReader.php;f11;163;5;172;;;;vpos;;vstring;;r&#10;Definition&#10;    getBuffer($atOffset = true)&#10;&#10;Description&#10;     Returns the current buffer.&#10;&#10;Parameters:&#10;    bool $atOffset;;d4,164;;b1,0;;mbool $atOffset;;p">
+</treenode>
+<treenode node="getBufferLength;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\StreamReader.php;f11;138;5;145;;;;vpos;;vint;;r&#10;Definition&#10;    getBufferLength($atOffset = false)&#10;&#10;Description&#10;     Returns the byte length of the buffer.&#10;&#10;Parameters:&#10;    bool $atOffset;;d4,139;;b1,0;;mbool $atOffset;;p">
+</treenode>
+<treenode node="getByte;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\StreamReader.php;f11;184;5;194;;;;vpos;;vstring;;r&#10;Definition&#10;    getByte($position = null)&#10;&#10;Description&#10;     Gets a byte at a specific position in the buffer.&#10;&#10;Parameters:&#10;    int|null $position&#10;&#10;Return:&#10;   |bool;;d4,185;;b1,0;;mint|null $position;;p">
+</treenode>
+<treenode node="getOffset;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\StreamReader.php;f11;327;5;330;;;;vpos;;vint;;r&#10;Definition&#10;    getOffset()&#10;&#10;Description&#10;     Returns the current offset in the current buffer.;;d4,328;;b1,0;;m">
+</treenode>
+<treenode node="getPosition;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\StreamReader.php;f11;152;5;155;;;;vpos;;vint;;r&#10;Definition&#10;    getPosition()&#10;&#10;Description&#10;     Get the current position in the stream.;;d4,153;;b1,0;;m">
+</treenode>
+<treenode node="getStream;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\StreamReader.php;f11;362;5;365;;;;vpos;;vresource;;r&#10;Definition&#10;    getStream()&#10;&#10;Description&#10;     Returns the stream.;;d4,363;;b1,0;;m">
+</treenode>
+<treenode node="getTotalLength;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\StreamReader.php;f11;372;5;380;;;;vpos;;vint;;r&#10;Definition&#10;    getTotalLength()&#10;&#10;Description&#10;     Gets the total available length.;;d4,373;;b1,0;;m">
+</treenode>
+<treenode node="increaseLength;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\StreamReader.php;f11;444;5;459;;;;vpos;;vbool;;r&#10;Definition&#10;    increaseLength($minLength = 100)&#10;&#10;Description&#10;     Forcefully read more data into the buffer.&#10;&#10;Parameters:&#10;    int $minLength&#10;&#10;Return:&#10;   Returns false if the stream reaches the end;;d4,445;;b1,0;;mint $minLength;;p">
+</treenode>
+<treenode node="readByte;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\StreamReader.php;f11;206;5;229;;;;vpos;;vstring;;r&#10;Definition&#10;    readByte($position = null)&#10;&#10;Description&#10;     Returns a byte at a specific position, and set the offset to the next byte position.&#10;&#10;Parameters:&#10;    int|null $position&#10;&#10;Return:&#10;   |bool;;d4,207;;b1,0;;mint|null $position;;p">
+</treenode>
+<treenode node="readBytes;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\StreamReader.php;f11;242;5;267;;;;vpos;;vstring;;r&#10;Definition&#10;    readBytes($length, $position = null)&#10;&#10;Description&#10;     Read bytes from the current or a specific offset position and set the internal pointer to the next byte.&#10;&#10;Parameters:&#10;    int $length&#10;    int|null $position;;d4,243;;b1,0;;mint $length;;pint|null $position;;p">
+</treenode>
+<treenode node="readLine;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\StreamReader.php;f11;275;5;304;;;;vpos;;vstring;;r&#10;Definition&#10;    readLine($length = 1024)&#10;&#10;Description&#10;     Read a line from the current position.&#10;&#10;Parameters:&#10;    int $length&#10;&#10;Return:&#10;   |bool;;d4,276;;b1,0;;mint $length;;p">
+</treenode>
+<treenode node="reset;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\StreamReader.php;f11;394;5;417;;;;vpos;;v;;r&#10;Definition&#10;    reset($pos = 0, $length = 200)&#10;&#10;Description&#10;     Resets the buffer to a position and re-read the buffer with the given length.&#10;&#10;Parameters:&#10;    int|null $pos - Start position of the new buffer&#10;    int $length - Length of the new buffer;;d4,395;;b1,0;;mint|null $pos;;pint $length;;p">
+</treenode>
+<treenode node="setOffset;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\StreamReader.php;f11;311;5;320;;;;vpos;;v;;r&#10;Definition&#10;    setOffset($offset)&#10;&#10;Description&#10;     Set the offset position in the current buffer.&#10;&#10;Parameters:&#10;    int $offset;;d4,312;;b1,0;;mint $offset;;p">
+</treenode>
+</treenode>
+<treenode node="TcpdfFpdi;PHP:Class Name;C:\xampp2\htdocs\carimbador\FPDI\src\TcpdfFpdi.php;f0;29;1;261;;;;vpos;;vTCPDF;;cFpdiTrait;;c;;r&#10;Definition&#10;    class TcpdfFpdi extends \TCPDF&#10;&#10;Description&#10;     Class TcpdfFpdi;;d0,30;;b0,0;;m">
+<treenode node="VERSION;PHP:PHP Word;C:\xampp2\htdocs\carimbador\FPDI\src\TcpdfFpdi.php;f9;41;17;41;;;;vpos;;v;;r&#10;Description&#10;     FPDI version;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="_getxobjectdict;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\TcpdfFpdi.php;f14;134;5;143;;;;vpos;;v;;r&#10;Definition&#10;    _getxobjectdict()&#10;&#10;Description&#10;      inheritdoc;;d4,135;;b2,0;;m">
+</treenode>
+<treenode node="_newobj;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\TcpdfFpdi.php;f14;216;5;220;;;;vpos;;vint;;r&#10;Definition&#10;    _newobj($objid = &apos;&apos;)&#10;&#10;Description&#10;     Begin a new object and return the object number.&#10;&#10;Parameters:&#10;    int|string $objid - Object ID (leave empty to get a new ID)&#10;&#10;Return:&#10;   object number;;d4,217;;b2,0;;mint|string $objid;;p">
+</treenode>
+<treenode node="_put;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\TcpdfFpdi.php;f14;201;5;208;;;;vpos;;v;;r&#10;Definition&#10;    _put($s, $newLine = true)&#10;&#10;Description&#10;     Append content to the buffer of TCPDF.&#10;&#10;Parameters:&#10;    string $s&#10;    bool $newLine;;d4,202;;b2,0;;mstring $s;;pbool $newLine;;p">
+</treenode>
+<treenode node="_putxobjects;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\TcpdfFpdi.php;f14;148;5;193;;;;vpos;;v;;r&#10;Definition&#10;    _putxobjects()&#10;&#10;Description&#10;      inheritdoc;;d4,149;;b2,0;;m">
+</treenode>
+<treenode node="getNextTemplateId;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\TcpdfFpdi.php;f14;62;5;65;;;;vpos;;vint;;r&#10;Definition&#10;    getNextTemplateId()&#10;&#10;Description&#10;     Get the next template id.;;d4,63;;b2,0;;m">
+</treenode>
+<treenode node="getTemplateSize;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\TcpdfFpdi.php;f11;126;5;129;;;;vpos;;varray;;r&#10;Definition&#10;    getTemplateSize($tpl, $width = null, $height = null)&#10;&#10;Description&#10;     Get the size of an imported page.&#10;&#10;Parameters:&#10;    mixed $tpl - The template id&#10;    float|int|null $width - The width&#10;    float|int|null $height - The height&#10;&#10;Return:&#10;   |bool An array with following keys: width, height, 0 (=width), 1 (=height), orientation (L or P);;d4,127;;b1,0;;mmixed $tpl;;pfloat|int|null $width;;pfloat|int|null $height;;p">
+</treenode>
+<treenode node="useImportedPage;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\TcpdfFpdi.php;f11;104;5;113;;;;vpos;;varray;;r&#10;Definition&#10;    useImportedPage($pageId, $x = 0, $y = 0, $width = null, $height = null, $adjustPageSize = false)&#10;&#10;Description&#10;     Draws an imported page onto the page.&#10;&#10;Parameters:&#10;    mixed $pageId - The page id&#10;    float|int|array $x - The abscissa of upper-left corner&#10;    float|int $y - The ordinate of upper-left corner&#10;    float|int|null $width - The width&#10;    float|int|null $height - The height&#10;    bool $adjustPageSize&#10;&#10;Return:&#10;   The size;;d4,105;;b1,0;;mmixed $pageId;;pfloat|int|array $x;;pfloat|int $y;;pfloat|int|null $width;;pfloat|int|null $height;;pbool $adjustPageSize;;p">
+</treenode>
+<treenode node="useTemplate;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\TcpdfFpdi.php;f11;83;5;86;;;;vpos;;varray;;r&#10;Definition&#10;    useTemplate($tpl, $x = 0, $y = 0, $width = null, $height = null, $adjustPageSize = false)&#10;&#10;Description&#10;     Draws an imported page onto the page or another template.&#10;&#10;Parameters:&#10;    mixed $tpl - The template id&#10;    float|int|array $x - The abscissa of upper-left corner&#10;    float|int $y - The ordinate of upper-left corner&#10;    float|int|null $width - The width&#10;    float|int|null $height - The height&#10;    bool $adjustPageSize&#10;&#10;Return:&#10;   The size;;d4,84;;b1,0;;mmixed $tpl;;pfloat|int|array $x;;pfloat|int $y;;pfloat|int|null $width;;pfloat|int|null $height;;pbool $adjustPageSize;;p">
+</treenode>
+<treenode node="writePdfType;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\TcpdfFpdi.php;f14;227;5;260;;;;vpos;;v;;r&#10;Definition&#10;    writePdfType(PdfType $value)&#10;&#10;Description&#10;     Writes a PdfType object to the resulting buffer.&#10;&#10;Parameters:&#10;    PdfType $value;;d4,228;;b2,0;;mPdfType $value;;p">
+</treenode>
+</treenode>
+<treenode node="Tokenizer;PHP:Class Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Tokenizer.php;f0;17;1;161;;;;vpos;;v;;r&#10;Definition&#10;    class Tokenizer&#10;&#10;Description&#10;     A tokenizer class.;;d0,18;;b0,0;;m">
+<treenode node="__construct;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Tokenizer.php;f11;36;5;39;;;;vpos;;v;;r&#10;Definition&#10;    __construct(StreamReader $streamReader)&#10;&#10;Description&#10;     Tokenizer constructor.&#10;&#10;Parameters:&#10;    StreamReader $streamReader;;d4,37;;b1,0;;mStreamReader $streamReader;;p">
+</treenode>
+<treenode node="clearStack;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Tokenizer.php;f11;54;5;57;;;;vpos;;v;;r&#10;Definition&#10;    clearStack()&#10;&#10;Description&#10;     Clear the token stack.;;d4,55;;b1,0;;m">
+</treenode>
+<treenode node="getNextToken;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Tokenizer.php;f11;74;5;138;;;;vpos;;vbool;;r&#10;Definition&#10;    getNextToken()&#10;&#10;Description&#10;     Get next token.&#10;&#10;Return:&#10;   |string;;d4,75;;b1,0;;m">
+</treenode>
+<treenode node="getStreamReader;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Tokenizer.php;f11;46;5;49;;;;vpos;;vStreamReader;;r&#10;Definition&#10;    getStreamReader()&#10;&#10;Description&#10;     Get the stream reader instance.;;d4,47;;b1,0;;m">
+</treenode>
+<treenode node="leapWhiteSpaces;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Tokenizer.php;f11;145;5;160;;;;vpos;;vboolean;;r&#10;Definition&#10;    leapWhiteSpaces()&#10;&#10;Description&#10;     Leap white spaces.;;d4,146;;b1,0;;m">
+</treenode>
+<treenode node="pushStack;PHP:Function Name;C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Tokenizer.php;f11;64;5;67;;;;vpos;;v;;r&#10;Definition&#10;    pushStack($token)&#10;&#10;Description&#10;     Push a token onto the stack.&#10;&#10;Parameters:&#10;    string $token;;d4,65;;b1,0;;mstring $token;;p">
+</treenode>
+</treenode>
+<treenode node="TTFParser;PHP:Class Name;C:\xampp2\htdocs\carimbador\fpdf\makefont\ttfparser.php;f0;9;1;721;;;;vpos;;v;;r;;d0,10;;b0,0;;m">
+<treenode node="__construct;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\makefont\ttfparser.php;f1;34;2;39;;;;vpos;;v;;r;;d1,35;;b0,0;;mfile;;p">
+</treenode>
+<treenode node="__destruct;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\makefont\ttfparser.php;f1;41;2;45;;;;vpos;;v;;r;;d1,42;;b0,0;;m">
+</treenode>
+<treenode node="AddGlyph;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\makefont\ttfparser.php;f1;377;2;389;;;;vpos;;v;;r;;d1,378;;b0,0;;mid;;p">
+</treenode>
+<treenode node="Build;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\makefont\ttfparser.php;f1;391;2;401;;;;vpos;;v;;r;;d1,392;;b0,0;;m">
+</treenode>
+<treenode node="BuildCmap;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\makefont\ttfparser.php;f1;403;2;486;;;;vpos;;v;;r;;d1,404;;b0,0;;m">
+</treenode>
+<treenode node="BuildFont;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\makefont\ttfparser.php;f1;592;2;643;;;;vpos;;v;;r;;d1,593;;b0,0;;m">
+</treenode>
+<treenode node="BuildGlyf;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\makefont\ttfparser.php;f1;526;2;547;;;;vpos;;v;;r;;d1,527;;b0,0;;m">
+</treenode>
+<treenode node="BuildHhea;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\makefont\ttfparser.php;f1;488;2;494;;;;vpos;;v;;r;;d1,489;;b0,0;;m">
+</treenode>
+<treenode node="BuildHmtx;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\makefont\ttfparser.php;f1;496;2;505;;;;vpos;;v;;r;;d1,497;;b0,0;;m">
+</treenode>
+<treenode node="BuildLoca;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\makefont\ttfparser.php;f1;507;2;524;;;;vpos;;v;;r;;d1,508;;b0,0;;m">
+</treenode>
+<treenode node="BuildMaxp;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\makefont\ttfparser.php;f1;549;2;555;;;;vpos;;v;;r;;d1,550;;b0,0;;m">
+</treenode>
+<treenode node="BuildPost;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\makefont\ttfparser.php;f1;557;2;590;;;;vpos;;v;;r;;d1,558;;b0,0;;m">
+</treenode>
+<treenode node="CheckSum;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\makefont\ttfparser.php;f1;704;2;715;;;;vpos;;v;;r;;d1,705;;b0,0;;ms;;p">
+</treenode>
+<treenode node="Error;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\makefont\ttfparser.php;f1;717;2;720;;;;vpos;;v;;r;;d1,718;;b0,0;;mmsg;;p">
+</treenode>
+<treenode node="LoadTable;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\makefont\ttfparser.php;f1;645;2;653;;;;vpos;;v;;r;;d1,646;;b0,0;;mtag;;p">
+</treenode>
+<treenode node="Parse;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\makefont\ttfparser.php;f1;47;2;60;;;;vpos;;v;;r;;d1,48;;b0,0;;m">
+</treenode>
+<treenode node="ParseCmap;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\makefont\ttfparser.php;f1;193;2;259;;;;vpos;;v;;r;;d1,194;;b0,0;;m">
+</treenode>
+<treenode node="ParseGlyf;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\makefont\ttfparser.php;f1;154;2;191;;;;vpos;;v;;r;;d1,155;;b0,0;;m">
+</treenode>
+<treenode node="ParseHead;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\makefont\ttfparser.php;f1;82;2;98;;;;vpos;;v;;r;;d1,83;;b0,0;;m">
+</treenode>
+<treenode node="ParseHhea;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\makefont\ttfparser.php;f1;100;2;105;;;;vpos;;v;;r;;d1,101;;b0,0;;m">
+</treenode>
+<treenode node="ParseHmtx;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\makefont\ttfparser.php;f1;114;2;129;;;;vpos;;v;;r;;d1,115;;b0,0;;m">
+</treenode>
+<treenode node="ParseLoca;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\makefont\ttfparser.php;f1;131;2;152;;;;vpos;;v;;r;;d1,132;;b0,0;;m">
+</treenode>
+<treenode node="ParseMaxp;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\makefont\ttfparser.php;f1;107;2;112;;;;vpos;;v;;r;;d1,108;;b0,0;;m">
+</treenode>
+<treenode node="ParseName;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\makefont\ttfparser.php;f1;261;2;288;;;;vpos;;v;;r;;d1,262;;b0,0;;m">
+</treenode>
+<treenode node="ParseOffsetTable;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\makefont\ttfparser.php;f1;62;2;80;;;;vpos;;v;;r;;d1,63;;b0,0;;m">
+</treenode>
+<treenode node="ParseOS2;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\makefont\ttfparser.php;f1;290;2;310;;;;vpos;;v;;r;;d1,291;;b0,0;;m">
+</treenode>
+<treenode node="ParsePost;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\makefont\ttfparser.php;f1;312;2;352;;;;vpos;;v;;r;;d1,313;;b0,0;;m">
+</treenode>
+<treenode node="Read;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\makefont\ttfparser.php;f1;678;2;681;;;;vpos;;v;;r;;d1,679;;b0,0;;mn;;p">
+</treenode>
+<treenode node="ReadShort;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\makefont\ttfparser.php;f1;689;2;696;;;;vpos;;v;;r;;d1,690;;b0,0;;m">
+</treenode>
+<treenode node="ReadULong;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\makefont\ttfparser.php;f1;698;2;702;;;;vpos;;v;;r;;d1,699;;b0,0;;m">
+</treenode>
+<treenode node="ReadUShort;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\makefont\ttfparser.php;f1;683;2;687;;;;vpos;;v;;r;;d1,684;;b0,0;;m">
+</treenode>
+<treenode node="Seek;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\makefont\ttfparser.php;f1;666;2;671;;;;vpos;;v;;r;;d1,667;;b0,0;;mtag;;p">
+</treenode>
+<treenode node="SetTable;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\makefont\ttfparser.php;f1;655;2;664;;;;vpos;;v;;r;;d1,656;;b0,0;;mtag;;pdata;;p">
+</treenode>
+<treenode node="Skip;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\makefont\ttfparser.php;f1;673;2;676;;;;vpos;;v;;r;;d1,674;;b0,0;;mn;;p">
+</treenode>
+<treenode node="Subset;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\makefont\ttfparser.php;f1;354;2;375;;;;vpos;;v;;r;;d1,355;;b0,0;;mchars;;p">
+</treenode>
+</treenode>
+<treenode node="Error;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\makefont\makefont.php;f0;37;1;41;;;;vpos;;v;;r;;d0,38;;b0,0;;mtxt;;p">
+</treenode>
+<treenode node="GetInfoFromTrueType;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\makefont\makefont.php;f0;61;1;121;;;;vpos;;v;;r;;d0,62;;b0,0;;mfile;;pembed;;psubset;;pmap;;p">
+</treenode>
+<treenode node="GetInfoFromType1;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\makefont\makefont.php;f0;123;1;215;;;;vpos;;v;;r;;d0,124;;b0,0;;mfile;;pembed;;pmap;;p">
+</treenode>
+<treenode node="LoadMap;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\makefont\makefont.php;f0;43;1;59;;;;vpos;;v;;r;;d0,44;;b0,0;;menc;;p">
+</treenode>
+<treenode node="MakeDefinitionFile;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\makefont\makefont.php;f0;350;1;381;;;;vpos;;v;;r;;d0,351;;b0,0;;mfile;;ptype;;penc;;pembed;;psubset;;pmap;;pinfo;;p">
+</treenode>
+<treenode node="MakeFont;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\makefont\makefont.php;f0;383;1;427;;;;vpos;;v;;r;;d0,384;;b0,0;;mfontfile;;penc;;pembed;;psubset;;p">
+</treenode>
+<treenode node="MakeFontDescriptor;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\makefont\makefont.php;f0;217;1;252;;;;vpos;;v;;r;;d0,218;;b0,0;;minfo;;p">
+</treenode>
+<treenode node="MakeFontEncoding;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\makefont\makefont.php;f0;277;1;294;;;;vpos;;v;;r;;d0,278;;b0,0;;mmap;;p">
+</treenode>
+<treenode node="MakeUnicodeArray;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\makefont\makefont.php;f0;296;1;339;;;;vpos;;v;;r;;d0,297;;b0,0;;mmap;;p">
+</treenode>
+<treenode node="MakeWidthArray;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\makefont\makefont.php;f0;254;1;275;;;;vpos;;v;;r;;d0,255;;b0,0;;mwidths;;p">
+</treenode>
+<treenode node="Message;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\makefont\makefont.php;f0;11;1;25;;;;vpos;;v;;r;;d0,12;;b0,0;;mtxt;;pseverity;;p">
+</treenode>
+<treenode node="Notice;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\makefont\makefont.php;f0;27;1;30;;;;vpos;;v;;r;;d0,28;;b0,0;;mtxt;;p">
+</treenode>
+<treenode node="SaveToFile;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\makefont\makefont.php;f0;341;1;348;;;;vpos;;v;;r;;d0,342;;b0,0;;mfile;;ps;;pmode;;p">
+</treenode>
+<treenode node="Warning;PHP:Function Name;C:\xampp2\htdocs\carimbador\fpdf\makefont\makefont.php;f0;32;1;35;;;;vpos;;v;;r;;d0,33;;b0,0;;mtxt;;p">
+</treenode>
+</phptree>
+</codestructure>

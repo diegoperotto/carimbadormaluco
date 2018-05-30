@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project name="C:\xampp2\htdocs\carimbador\carimbador.clpprj">
+	<settings><PM_URL><![CDATA[http://localhost/carimbador/]]></PM_URL><PM_HOME_URL><![CDATA[http://localhost/carimbador/]]></PM_HOME_URL><PM_LIBS><![CDATA[]]></PM_LIBS><PM_FTP_CONNECTION><![CDATA[]]></PM_FTP_CONNECTION><PM_FTP_DIR><![CDATA[]]></PM_FTP_DIR><PM_FTP_UPLOAD_ON_SAVE><![CDATA[INT:0]]></PM_FTP_UPLOAD_ON_SAVE></settings><removed value=";"/><added value=""/><lastopfiles>
+		<file name="C:\xampp2\htdocs\carimbador\index.php"/>
+		<file name="C:\xampp2\htdocs\carimbador\FPDI\src\autoload.php"/>
+		<file name="C:\xampp2\htdocs\carimbador\FPDI\src\Fpdi.php"/>
+		<file name="C:\xampp2\htdocs\carimbador\fpdf\fpdf.php"/>
+	</lastopfiles>
+	<errors version="5.11">
+		<errfile name="C:\xampp2\htdocs\carimbador\fpdf\fpdf.php">
+			<error val="24;1579;27;1579;302;2;"/>
+			<error val="27;1655;30;1655;302;2;"/>
+		</errfile>
+	</errors>
+	<cakedata>
+	</cakedata>
+	<dplmenupath>
+	</dplmenupath><laravael>
+	</laravael><smartyassings>
+	</smartyassings><twigtemplate>
+	</twigtemplate><yiidata>
+	</yiidata>
+	<todoblock>
+	</todoblock>
+	<dbgurls>
+	</dbgurls>
+	<filescache>
+		<file name="C:\xampp2\htdocs\carimbador\FPDI\src\PdfReader\DataStructure\Rectangle.php" crc="1519391608"/>
+		<file name="C:\xampp2\htdocs\carimbador\FPDI\src\PdfReader\PdfReaderException.php" crc="1519391608"/>
+		<file name="C:\xampp2\htdocs\carimbador\FPDI\src\PdfReader\PdfReader.php" crc="1519391608"/>
+		<file name="C:\xampp2\htdocs\carimbador\FPDI\src\PdfReader\PageBoundaries.php" crc="1519391608"/>
+		<file name="C:\xampp2\htdocs\carimbador\FPDI\src\PdfReader\Page.php" crc="1519391608"/>
+		<file name="C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Type\PdfTypeException.php" crc="1519391608"/>
+		<file name="C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Type\PdfType.php" crc="1519391608"/>
+		<file name="C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Type\PdfToken.php" crc="1519391608"/>
+		<file name="C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Type\PdfString.php" crc="1519391608"/>
+		<file name="C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Type\PdfStream.php" crc="1519391608"/>
+		<file name="C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Type\PdfNumeric.php" crc="1519391608"/>
+		<file name="C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Type\PdfNull.php" crc="1519391608"/>
+		<file name="C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Type\PdfName.php" crc="1519391608"/>
+		<file name="C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Type\PdfIndirectObjectReference.php" crc="1519391608"/>
+		<file name="C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Type\PdfIndirectObject.php" crc="1519391608"/>
+		<file name="C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Type\PdfHexString.php" crc="1519391608"/>
+		<file name="C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Type\PdfDictionary.php" crc="1519391608"/>
+		<file name="C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Type\PdfBoolean.php" crc="1519391608"/>
+		<file name="C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Type\PdfArray.php" crc="1519391608"/>
+		<file name="C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Filter\LzwException.php" crc="1519391608"/>
+		<file name="C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Filter\Lzw.php" crc="1519391608"/>
+		<file name="C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Filter\FlateException.php" crc="1519391608"/>
+		<file name="C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Filter\Flate.php" crc="1519391608"/>
+		<file name="C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Filter\FilterInterface.php" crc="1519391608"/>
+		<file name="C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Filter\FilterException.php" crc="1519391608"/>
+		<file name="C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Filter\AsciiHex.php" crc="1519391607"/>
+		<file name="C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Filter\Ascii85Exception.php" crc="1519391607"/>
+		<file name="C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Filter\Ascii85.php" crc="1519391607"/>
+		<file name="C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\CrossReference\ReaderInterface.php" crc="1519391607"/>
+		<file name="C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\CrossReference\LineReader.php" crc="1519391607"/>
+		<file name="C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\CrossReference\FixedReader.php" crc="1519391607"/>
+		<file name="C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\CrossReference\CrossReferenceException.php" crc="1519391607"/>
+		<file name="C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\CrossReference\CrossReference.php" crc="1519391607"/>
+		<file name="C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\CrossReference\AbstractReader.php" crc="1519391607"/>
+		<file name="C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\Tokenizer.php" crc="1519391607"/>
+		<file name="C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\StreamReader.php" crc="1519391607"/>
+		<file name="C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\PdfParserException.php" crc="1519391607"/>
+		<file name="C:\xampp2\htdocs\carimbador\FPDI\src\PdfParser\PdfParser.php" crc="1519391607"/>
+		<file name="C:\xampp2\htdocs\carimbador\FPDI\src\TcpdfFpdi.php" crc="1519391607"/>
+		<file name="C:\xampp2\htdocs\carimbador\FPDI\src\FpdiTrait.php" crc="1519391607"/>
+		<file name="C:\xampp2\htdocs\carimbador\FPDI\src\FpdiException.php" crc="1519391607"/>
+		<file name="C:\xampp2\htdocs\carimbador\FPDI\src\Fpdi.php" crc="1519391607"/>
+		<file name="C:\xampp2\htdocs\carimbador\FPDI\src\FpdfTpl.php" crc="1519391607"/>
+		<file name="C:\xampp2\htdocs\carimbador\FPDI\src\autoload.php" crc="1519391607"/>
+		<file name="C:\xampp2\htdocs\carimbador\FPDI\LICENSE.txt" crc="1519391607"/>
+		<file name="C:\xampp2\htdocs\carimbador\fpdf\tutorial\tuto7.php" crc="1519391312"/>
+		<file name="C:\xampp2\htdocs\carimbador\fpdf\tutorial\tuto7.htm" crc="1519391312"/>
+		<file name="C:\xampp2\htdocs\carimbador\fpdf\tutorial\tuto6.php" crc="1519391312"/>
+		<file name="C:\xampp2\htdocs\carimbador\fpdf\tutorial\tuto6.htm" crc="1519391312"/>
+		<file name="C:\xampp2\htdocs\carimbador\fpdf\tutorial\tuto5.php" crc="1519391312"/>
+		<file name="C:\xampp2\htdocs\carimbador\fpdf\tutorial\tuto5.htm" crc="1519391312"/>
+		<file name="C:\xampp2\htdocs\carimbador\fpdf\tutorial\tuto4.php" crc="1519391312"/>
+		<file name="C:\xampp2\htdocs\carimbador\fpdf\tutorial\tuto4.htm" crc="1519391312"/>
+		<file name="C:\xampp2\htdocs\carimbador\fpdf\tutorial\tuto3.php" crc="1519391312"/>
+		<file name="C:\xampp2\htdocs\carimbador\fpdf\tutorial\tuto3.htm" crc="1519391312"/>
+		<file name="C:\xampp2\htdocs\carimbador\fpdf\tutorial\tuto2.php" crc="1519391312"/>
+		<file name="C:\xampp2\htdocs\carimbador\fpdf\tutorial\tuto2.htm" crc="1519391312"/>
+		<file name="C:\xampp2\htdocs\carimbador\fpdf\tutorial\tuto1.php" crc="1519391312"/>
+		<file name="C:\xampp2\htdocs\carimbador\fpdf\tutorial\tuto1.htm" crc="1519391312"/>
+		<file name="C:\xampp2\htdocs\carimbador\fpdf\tutorial\makefont.php" crc="1519391311"/>
+		<file name="C:\xampp2\htdocs\carimbador\fpdf\tutorial\index.htm" crc="1519391311"/>
+		<file name="C:\xampp2\htdocs\carimbador\fpdf\tutorial\countries.txt" crc="1519391311"/>
+		<file name="C:\xampp2\htdocs\carimbador\fpdf\tutorial\calligra.php" crc="1519391311"/>
+		<file name="C:\xampp2\htdocs\carimbador\fpdf\tutorial\20k_c2.txt" crc="1519391311"/>
+		<file name="C:\xampp2\htdocs\carimbador\fpdf\tutorial\20k_c1.txt" crc="1519391311"/>
+		<file name="C:\xampp2\htdocs\carimbador\fpdf\makefont\ttfparser.php" crc="1519391311"/>
+		<file name="C:\xampp2\htdocs\carimbador\fpdf\makefont\makefont.php" crc="1519391311"/>
+		<file name="C:\xampp2\htdocs\carimbador\fpdf\font\zapfdingbats.php" crc="1519391309"/>
+		<file name="C:\xampp2\htdocs\carimbador\fpdf\font\timesi.php" crc="1519391309"/>
+		<file name="C:\xampp2\htdocs\carimbador\fpdf\font\timesbi.php" crc="1519391309"/>
+		<file name="C:\xampp2\htdocs\carimbador\fpdf\font\timesb.php" crc="1519391309"/>
+		<file name="C:\xampp2\htdocs\carimbador\fpdf\font\times.php" crc="1519391309"/>
+		<file name="C:\xampp2\htdocs\carimbador\fpdf\font\symbol.php" crc="1519391309"/>
+		<file name="C:\xampp2\htdocs\carimbador\fpdf\font\helveticai.php" crc="1519391309"/>
+		<file name="C:\xampp2\htdocs\carimbador\fpdf\font\helveticabi.php" crc="1519391309"/>
+		<file name="C:\xampp2\htdocs\carimbador\fpdf\font\helveticab.php" crc="1519391309"/>
+		<file name="C:\xampp2\htdocs\carimbador\fpdf\font\helvetica.php" crc="1519391309"/>
+		<file name="C:\xampp2\htdocs\carimbador\fpdf\font\courieri.php" crc="1519391309"/>
+		<file name="C:\xampp2\htdocs\carimbador\fpdf\font\courierbi.php" crc="1519391309"/>
+		<file name="C:\xampp2\htdocs\carimbador\fpdf\font\courierb.php" crc="1519391309"/>
+		<file name="C:\xampp2\htdocs\carimbador\fpdf\font\courier.php" crc="1519391309"/>
+		<file name="C:\xampp2\htdocs\carimbador\fpdf\doc\write.htm" crc="1519391309"/>
+		<file name="C:\xampp2\htdocs\carimbador\fpdf\doc\text.htm" crc="1519391309"/>
+		<file name="C:\xampp2\htdocs\carimbador\fpdf\doc\sety.htm" crc="1519391309"/>
+		<file name="C:\xampp2\htdocs\carimbador\fpdf\doc\setxy.htm" crc="1519391309"/>
+		<file name="C:\xampp2\htdocs\carimbador\fpdf\doc\setx.htm" crc="1519391308"/>
+		<file name="C:\xampp2\htdocs\carimbador\fpdf\doc\settopmargin.htm" crc="1519391308"/>
+		<file name="C:\xampp2\htdocs\carimbador\fpdf\doc\settitle.htm" crc="1519391308"/>
+		<file name="C:\xampp2\htdocs\carimbador\fpdf\doc\settextcolor.htm" crc="1519391308"/>
+		<file name="C:\xampp2\htdocs\carimbador\fpdf\doc\setsubject.htm" crc="1519391308"/>
+		<file name="C:\xampp2\htdocs\carimbador\fpdf\doc\setrightmargin.htm" crc="1519391308"/>
+		<file name="C:\xampp2\htdocs\carimbador\fpdf\doc\setmargins.htm" crc="1519391308"/>
+		<file name="C:\xampp2\htdocs\carimbador\fpdf\doc\setlink.htm" crc="1519391308"/>
+		<file name="C:\xampp2\htdocs\carimbador\fpdf\doc\setlinewidth.htm" crc="1519391308"/>
+		<file name="C:\xampp2\htdocs\carimbador\fpdf\doc\setleftmargin.htm" crc="1519391308"/>
+		<file name="C:\xampp2\htdocs\carimbador\fpdf\doc\setkeywords.htm" crc="1519391308"/>
+		<file name="C:\xampp2\htdocs\carimbador\fpdf\doc\setfontsize.htm" crc="1519391308"/>
+		<file name="C:\xampp2\htdocs\carimbador\fpdf\doc\setfont.htm" crc="1519391308"/>
+		<file name="C:\xampp2\htdocs\carimbador\fpdf\doc\setfillcolor.htm" crc="1519391308"/>
+		<file name="C:\xampp2\htdocs\carimbador\fpdf\doc\setdrawcolor.htm" crc="1519391308"/>
+		<file name="C:\xampp2\htdocs\carimbador\fpdf\doc\setdisplaymode.htm" crc="1519391308"/>
+		<file name="C:\xampp2\htdocs\carimbador\fpdf\doc\setcreator.htm" crc="1519391307"/>
+		<file name="C:\xampp2\htdocs\carimbador\fpdf\doc\setcompression.htm" crc="1519391307"/>
+		<file name="C:\xampp2\htdocs\carimbador\fpdf\doc\setautopagebreak.htm" crc="1519391307"/>
+		<file name="C:\xampp2\htdocs\carimbador\fpdf\doc\setauthor.htm" crc="1519391307"/>
+		<file name="C:\xampp2\htdocs\carimbador\fpdf\doc\rect.htm" crc="1519391307"/>
+		<file name="C:\xampp2\htdocs\carimbador\fpdf\doc\pageno.htm" crc="1519391307"/>
+		<file name="C:\xampp2\htdocs\carimbador\fpdf\doc\output.htm" crc="1519391307"/>
+		<file name="C:\xampp2\htdocs\carimbador\fpdf\doc\multicell.htm" crc="1519391307"/>
+		<file name="C:\xampp2\htdocs\carimbador\fpdf\doc\ln.htm" crc="1519391307"/>
+		<file name="C:\xampp2\htdocs\carimbador\fpdf\doc\link.htm" crc="1519391307"/>
+		<file name="C:\xampp2\htdocs\carimbador\fpdf\doc\line.htm" crc="1519391307"/>
+		<file name="C:\xampp2\htdocs\carimbador\fpdf\doc\index.htm" crc="1519391307"/>
+		<file name="C:\xampp2\htdocs\carimbador\fpdf\doc\image.htm" crc="1519391307"/>
+		<file name="C:\xampp2\htdocs\carimbador\fpdf\doc\header.htm" crc="1519391307"/>
+		<file name="C:\xampp2\htdocs\carimbador\fpdf\doc\gety.htm" crc="1519391307"/>
+		<file name="C:\xampp2\htdocs\carimbador\fpdf\doc\getx.htm" crc="1519391306"/>
+		<file name="C:\xampp2\htdocs\carimbador\fpdf\doc\getstringwidth.htm" crc="1519391306"/>
+		<file name="C:\xampp2\htdocs\carimbador\fpdf\doc\footer.htm" crc="1519391306"/>
+		<file name="C:\xampp2\htdocs\carimbador\fpdf\doc\error.htm" crc="1519391306"/>
+		<file name="C:\xampp2\htdocs\carimbador\fpdf\doc\close.htm" crc="1519391306"/>
+		<file name="C:\xampp2\htdocs\carimbador\fpdf\doc\cell.htm" crc="1519391306"/>
+		<file name="C:\xampp2\htdocs\carimbador\fpdf\doc\aliasnbpages.htm" crc="1519391306"/>
+		<file name="C:\xampp2\htdocs\carimbador\fpdf\doc\addpage.htm" crc="1519391306"/>
+		<file name="C:\xampp2\htdocs\carimbador\fpdf\doc\addlink.htm" crc="1519391306"/>
+		<file name="C:\xampp2\htdocs\carimbador\fpdf\doc\addfont.htm" crc="1519391306"/>
+		<file name="C:\xampp2\htdocs\carimbador\fpdf\doc\acceptpagebreak.htm" crc="1519391306"/>
+		<file name="C:\xampp2\htdocs\carimbador\fpdf\doc\__construct.htm" crc="1519391309"/>
+		<file name="C:\xampp2\htdocs\carimbador\fpdf\license.txt" crc="1519391310"/>
+		<file name="C:\xampp2\htdocs\carimbador\fpdf\install.txt" crc="1519391310"/>
+		<file name="C:\xampp2\htdocs\carimbador\fpdf\fpdf.php" crc="1519391309"/>
+		<file name="C:\xampp2\htdocs\carimbador\fpdf\fpdf.css" crc="1519391309"/>
+		<file name="C:\xampp2\htdocs\carimbador\fpdf\FAQ.htm" crc="1519391309"/>
+		<file name="C:\xampp2\htdocs\carimbador\fpdf\changelog.htm" crc="1519391306"/>
+		<file name="C:\xampp2\htdocs\carimbador\index.php" crc="1519416184"/>
+	</filescache>
+</project>
